@@ -2,7 +2,7 @@
 quest.name,Disturbance at the Docks
 quest.description,Something strange is going on at the docks of Tarrmouth.\nRecently strange men have appeared and a disturbing humming sound is chasing the seagulls away. It feels unnatural, dangerous even. Surely it has to be investigated.\n\n<i>An adventure for Mansions of Madness 2nd edition. No expansions required.</i>\n\n<b>Note:</b> Replaying this scenario requires investigators each time to find clues for the correct end-game solution. The end game solution is randomly generated.\n\n(please report scenario bugs or suggestions for improvement at https://github.com/antontimmermans/MOMDATD)
 quest.authors,Anton Timmermans\nWilliam van den Broek
-UIIntroductionText.uitext,You are walking through Tarrmouth when suddenly you notice a strange sound. A low and almost inaudible humming noise is continuously present in the back of your mind and giving you a growing headache.\n\nIt is difficult to pinpoint the origin of the sound. Clearly its volume increases when you approach the docks.\n\nThe locals seem oblivious to the sound or maybe they just don't care.\n\nSomething must be wrong here so you decide to investigate.
+UIIntroductionText.uitext,You walk through Tarrmouth when suddenly you notice a strange sound. A low and almost inaudible humming noise is continuously present in the back of your mind and giving you a growing headache.\n\nIt is difficult to pinpoint the origin of the sound. Clearly its volume increases when you approach the docks.\n\nThe locals seem oblivious to the sound or maybe they just don't care.\n\nSomething must be wrong here so you decide to investigate.
 CONTINUE,Continue
 CANCEL,Cancel
 ATTACK,Attack
@@ -230,7 +230,7 @@ EventOfficePlaceBarricadeToken.button1,{qst:CONTINUE}
 EventQMoveOneSpace.text,You may move 1 space in the revealed area.
 EventOfficePlaceExploreTokenRootCellar.text,"Behind the harbor master's desk you see a door labeled ""Private"". Place an Explore Token as indicated"
 TokenExploreWareHouseFleaMarket.text,This old warehouse door is used too often. The lock is broken and the wood is beginning to rot.
-TokenExploreWareHouseFleaMarket.button1,{qst:CONTINUE}
+TokenExploreWareHouseFleaMarket.button1,{qst:OPEN}
 TokenSightYard4FleaMarket.text,An investigator adjacent to this Sight Token may reveal the next area.
 TokenSightYard4FleaMarket.button1,{qst:CONTINUE}
 EventYard4PlaceTile.text,This part of the park is dark and quiet. Through the cracks in the wood of the small tool shed you see a faint green glow. Place the {c:TileYard4} tile as indicated and remove connecting tokens.
@@ -281,9 +281,9 @@ EventBellTowerPlaceTrapDoorToken.button1,{qst:CONTINUE}
 EventRentalShackPlaceSecretDoorToken.text,A secret passage opens up.
 EventRentalShackPlaceSecretDoorToken.button1,{qst:CONTINUE}
 CustomMonsterDeapSeaStarSpawn.info,-
-TokenInteractBell.text,You found the source of the annoying sound. The resonating copper bell must be responsible for the recent events in the docks. The 4 sockets need to be properly filled with the right items. That would stop the bell from resonating at this frequency and return back to its original protective tune. Enter the number of Grotesque Stones you wish to place in the  sockets.
+EventBellPlaceGems.text,Enter the number of Grotesque Stones you wish to place in the sockets.
 UIGemmedBell.button1,{qst:CONTINUE}
-TokenInteractBell.button1,{action} Place gems
+TokenInteractBell.button1,{qst:CONTINUE}
 EventBellTowerPlaceGemsPassed.button1,{qst:CONTINUE}
 EventBellTowerPlaceGemsPassed.text,You managed to place the stones into their correct position.
 EventBellTowerPlaceGemsFailed.text,You try a combination with placing the stones but something is wrong. The frequency does not change. The noise continues and you fear all is lost. You gain 1 face down Horror ({will} negates) and then you flip 1 Horror face up.
@@ -315,8 +315,8 @@ EventRentalDockPlaceSearchTokenRentalshack.text,A pile of boxes is stacked  in t
 EventRentalDockPlaceSearchTokenRentalshack.button1,{qst:CONTINUE}
 TokenSearchRentalShack.text,These crates might contain something useful.
 SpawnCultistRentalShack.text,"You are surprised by a robed woman that jumps from behind the counter of the rentalshack while screaming: <i>""YOU WILL NEVER STOP US ALL"".</i> Place a Cultist as indicated."
-EventRentalShackPlaceTile.text,The trapdoor leads towards to a small shack on the rental dock. Place the {c:TileRentalDock} tile as indicated. Remove all connecting tokens.
-EventRentalShackPlaceTile.button1,{qst:CONTINUE}
+EventRentalShackPlaceNoTile.button1,{qst:CONTINUE}
+EventRentalShackPlaceTile.text,The trapdoor leads towards to a small shack on the rental dock.
 EventRentalShackPlaceSecretPassage.text,You find a small hidden door. Place a Secret Door Token as indicated.
 EventRentalShackPlaceExploreToken.text,The door of the rental shack appears to be locked. Perhaps with the right key you could open it. Place an Explore Token as indicated.
 EventRentalShackPlaceExploreToken.button1,{qst:CONTINUE}
@@ -416,14 +416,13 @@ TokenRedWoman.button1,{action} Buy Book
 TokenRedWoman.text,"<i>""Please buy this book from me. The book salesman don't want it. I need the money to feed my little boy. So he doesn't have to hide in the docks anymore to stea... eeh... catch fish"" </i>"
 EventRedWomanBuyBook.text,"<i>""Oh Thank you.. THANK YOU""</i> she says. And before you can change your mind she takes the money, hands you the book and walks away. Remove the Red Person Token. A quick inspection of the book reveals it contains a spell. You gain {c:QItemRedWomanSpell}."
 EventRedWomanBuyBook.button1,{qst:CONTINUE}
-TokenSearchOffice.text,Some pieces of torn paper lie on the table. You may test your {observation} to pick-up the papers without anyone noticing it.
-TokenSearchOffice.button1,{action} Pick Up
-EventOldJournalSolvePuzzle.button1,{qst:CONTINUE}
+EventOfficeSearchPapersHarborMasterLives.text,Some pieces of torn paper lie on the table. You may test your {observation} to pick-up the papers without the harbor master noticing it.
+TokenSearchOffice.button1,Continue
 EventOfficeSearchPapersSuccess.button1,{qst:CONTINUE}
 EventOldJournalPass.button1,{qst:CONTINUE}
-PuzzleOldJournal.button1,Read Notes
+PuzzleOldJournal.button1,Read Journal
 EventOldJournalPass.text,You manage to put the pieces of paper in the correct order and the text on the paper start to make sense.
-EventOldJournalSolvePuzzle.text,With the papers in the correct order ({lore} skill) this journal can be read.
+EventOldJournalPuzzleNotSolved.text,This journal does not make any sense with all the papers in random order. You may attempt to place them in the correct order to read the journal using your  {lore} skill.
 EventOfficeSearchPapersFail.text,Just when you want to pick up the papers, the harbor master looks up and you and grunts. With a weak smile you nod at him but he returns his attention back to his work.
 EventOfficePlaceSearchToken.button1,{qst:CONTINUE}
 EventOfficePlaceSearchToken.text,On the table lie some torn-up papers. Place a Search Token as indicated.
@@ -436,7 +435,7 @@ EventOldJournalPage12.button1,{qst:CONTINUE}
 EventOldJournalAllRead.text,You have read enough to know what to do. This journal does not contain more useful information.
 EventOldJournalAllRead.button1,{qst:CONTINUE}
 EventOldJournalPage10.button2,{qst:CANCEL}
-EventOldJournalPage11.button2,{qst:CANCEL
+EventOldJournalPage11.button2,{qst:CANCEL}
 TokenRootCellarSpell.text,One of the books has arcane symbols on it.
 TokenRootCellarSpell.button1,{qst:INSPECT}
 EventRootCellarSearchPapers.button1,{qst:CONTINUE}
@@ -513,7 +512,6 @@ EventPierSearchBarrels.text,"Someone must have lost this piece of paper recently
 EventPierSearchBarrels.button1,{qst:CONTINUE}
 EventPierPlaceSearchToken.text,Some barrels are pushed aside in the corner of the pier.
 EventPierPlaceSearchToken.button1,{qst:CONTINUE}
-EventOldJournalSolvePuzzle.button2,{qst:CANCEL}
 EventRootCellarPlaceExploreTokenYard3.text,You see a rusty metal gate overgrown by weeds and blocked by garbage. Place an Explore Token as indicated.
 EventSearchRentalShack.button1,{qst:CONTINUE}
 EventGreyManDialogueSoundTower.button3,{qst:NEVERMIND}
@@ -606,7 +604,7 @@ UIEndContinueBG.button1,Button1
 UIEndTextSuccess.uitext,The humming sound stops abruptly when you place the gems into their correct position. Outside you hear a tortured roar that slowly fades into the distance. You did it.\n\n The bell is now resonating at a harmless frequency for humans and is chasing the demons away. And you did it just in time too. This could not have continued any longer.\n\nThe town wakes up from a deep and haunted sleep, surprised by the corpses found in the streets. Soon the police will arrive and start to ask questions. Questions that you are not prepared to answer, since the truth is too unbelievable. It is probably better that you leave.\n\nThis delicate balance of peace remains, only for as long as the bell is tuned correctly. At the change of seasons you will return to adjust the bells tune.
 UIEndContinueText.button1,Button1
 UIEndTextInvestigatorDies.uitext,When you a see fellow investigator die in agony you have no time to mourn. A victorious roar sounds from the town square. While this sound chills you to the bone, it attracts even more evil spawn from the dark waters. Their march is unstoppable now and soon they will overtake the docks and eventually the whole town.\n\nThere is nothing left to do but save your own skin. You run for your life, leaving the docks and its inhabitants behind to certain death...\n\nLooking back you see some of the demons following your trail... will you ever be safe... anywhere?
-EventStoreSearchPlaceTokenGunStillThere.text,The gun in the display is left undisturbed. 
+EventStoreSearchPlaceTokenGunStillThere.text,The gun in the display is left undisturbed.
 EventStoreSearchPlaceTokenGunStillThere.button1,{qst:CONTINUE}
 EventDeepSeaStarSpawnMoveAttackLore.button3,Monster reached the town square
 EventDeepSeaStarSpawnMoveAttackAgility.button3,Monster reached the town square
@@ -675,7 +673,7 @@ EventQSpawnFinal.text,Once again the bell rings. This time a bit louder as if it
 EventOfficeSearchPapersSuccess.text,You gather the papers and discover that they all belong to one journal. It looks like someone has tried to dispose of some evidence. Maybe you can put it back together. You gain the Old Journal Unique Item. An investigator carrying the old journal papers may interact with it in the inventory.
 EventOfficeSearchPapersFail.button1,{qst:CONTINUE}
 EventOfficeSearchPapersHarbormasterDead.text,You check the room and see there is no need to be subtle since the harbor master is dead.
-EventOfficeSearchPapersHarbormasterDead.button1,{qst:CONTINUE}
+EventOfficeSearchPapersHarbormasterDead.button1,{action} Pick Up
 EventQTestClueHearObservation.text,The answer to this question troubles you. How can you NOT hear this maddening sound? It is getting even louder, now you focus on it. Horrific images start to form in your mind. Suffer 2 face down Horror ({observation} negates; you may not use Clue tokens to convert {clue} to {success} for <i><b>this test</b></i>). Throw away as many clues as Horror suffered. If you negate all Horrors, you realize that this person's vague expression is a sign of some mind influence and you dismiss the images. If suffer one or more Horror, you start to question yourself and the images turn into daytime nightmares and turn one Horror face up.
 EventQTestClueHearObservation.button1,{qst:CONTINUE}
 EventQTestClueHearInfluence.button1,{qst:CONTINUE}
@@ -688,7 +686,7 @@ EventTownSquareRemoveInvestigators.button1,{qst:CONTINUE}
 EventQGemsRequiredBigGroup.button1,Button1
 EventStoreFrontStealGun.button1,{action} Grab gun
 EventStoreFrontStealGun.button2,{qst:CANCEL}
-EventStoreFrontNoStealGun.text,While the shop keeper has left the store, you now have the chance to take the gun at your leisure.. 
+EventStoreFrontNoStealGun.text,While the shop keeper has left the store, you now have the chance to take the gun at your leisure..
 EventStoreFrontNoStealGun.button1,{action} Take gun
 EventStoreFrontNoStealGun.button2,{qst:CANCEL}
 EventStoreFrontSeeGunDoorLocked.text,Through the window you can see that the shopkeeper left the gun in the display. Perhaps you can pick the lock of the front door and go inside to 'borrow' it.
@@ -699,3 +697,21 @@ EventExploreOfficeRootcellarSafe.button2,{qst:CANCEL}
 EventPurpleWomanDialogueHeard.button2,{qst:NEVERMIND}
 TokenWhiteWoman.button3,{qst:NEVERMIND}
 EventOrangeBoyDialogueSeen.button2,{qst:NEVERMIND}
+EventBellPlaceGems.button1,{action} Place Gems
+EventBellPlaceGems.button2,{qst:CANCEL}
+TokenInteractBell.text,You found the source of the annoying sound. The resonating copper bell must be responsible for the recent events in the docks. The 4 sockets need to be properly filled with the right items. That would stop the bell from resonating at this frequency and return back to its original protective tune. \nMake sure to put in the exact right number (not more, not less) and that you have actually found sufficient number of items.
+EventRentalShackRevealSecretDoor.text,The secret passage leads to the {c:TileBellTower}.\nRemove the Search Token and Place a Trap Door Token as indicated.
+EventRentalShackRevealSecretDoor.button1,Continue
+EventRentalShackPlaceNoTile.text,The trapdoor leads towards to a small shack on the rental dock. Place the {c:TileRentalDock} tile as indicated. Remove all connecting tokens.
+EventRentalShackPlaceTile.button1,Continue
+EventOldJournalPuzzleNotSolved.button1,{action} Rearrange papers
+EventOldJournalPuzzleNotSolved.button2,{qst:CANCEL}
+EventOldJournalPuzzleSolved.button1,{action} Read next page
+EventOldJournalPuzzleSolved.text,Now all pages have been put back in their proper place you can read the journal.
+EventOldJournalPuzzleSolved.button2,{qst:CANCEL}
+EventOldJournalInspect.button1,{qst:CONTINUE}
+EventOfficeSearchPapersHarborMasterLives.button1,{action} Pick Up
+EventOfficeSearchPapersHarbormasterDead.button2,{qst:CANCEL}
+EventOfficeSearchPapersHarborMasterLives.button2,{qst:CANCEL}
+EventQRemoveOfficeRootCellarDoor.text,Now the harbor master is dead it is safe to open this door. Remove the Explore Token
+EventQRemoveOfficeRootCellarDoor.button1,{qst:CONTINUE}
