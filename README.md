@@ -15,3 +15,5 @@ The scenario can be played with the game Mansions Of Madness 2nd edition, no exp
 12-01-2019 v1.2 implemented improvements listed in issue #2; improved dialogue
 
 19-01-2019 v1.3 implemented improvements listed in issue #3; improved various issues
+
+16-02-2019 v1.4 Implemented improvement listed in issues #5 & #6; prepared for 2.2
