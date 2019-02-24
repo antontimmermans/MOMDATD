@@ -1,11 +1,10 @@
 .,English
-quest.name,Disturbance at the Docks
 quest.description,Something strange is going on at the docks of Tarrmouth.\nRecently strange men have appeared and a disturbing humming sound is chasing the seagulls away. It feels unnatural, dangerous even. Surely it has to be investigated.\n\n<i>An adventure for Mansions of Madness 2nd edition. No expansions required. \n(Best played at screen aspect ratio 16*9)</i>\n\n<b>Note:</b> Replaying this scenario requires investigators each time to find clues for the correct end-game solution. The end game solution is randomly generated.\n\n<i>(please report scenario bugs or suggestions for improvement at https://github.com/antontimmermans/MOMDATD)</i>
 quest.authors,Anton Timmermans\nWilliam van den Broek
-UIIntroductionText.uitext,You walk through Tarrmouth when suddenly you notice a strange sound. A low and almost inaudible humming noise is continuously present in the back of your mind and giving you a growing headache.\n\nIt is difficult to pinpoint the origin of the sound. Clearly its volume increases when you approach the docks.\n\nThe locals seem oblivious to the sound or maybe they just don't care.\n\nSomething must be wrong here so you decide to investigate.
+quest.name,Disturbance at the Docks
 quest.authors_short,Anton Timmermans
-quest.synopsys,What starts as a relaxed after dinner walk through town may end in a nightmare...
-;Disturbing events at the docks lately. Something is chasing the wildlife away. Time to check it out!
+quest.synopsys,What starts as an after dinner evening walk in town may turn out to become a nightmare...
+UIIntroductionText.uitext,You walk through Tarrmouth when suddenly you notice a strange sound. A low and almost inaudible humming noise is continuously present in the back of your mind and giving you a growing headache.\n\nIt is difficult to pinpoint the origin of the sound. Clearly its volume increases when you approach the docks.\n\nThe locals seem oblivious to the sound or maybe they just don't care.\n\nSomething must be wrong here so you decide to investigate.
 CONTINUE,Continue
 CANCEL,Cancel
 ATTACK,Attack
@@ -684,7 +683,7 @@ EventQTestClueHearAgility.text,The answer to this question troubles you. How can
 EventQTestClueHearInfluence.text,The answer to this question troubles you. How can you NOT hear this maddening sound? It is getting even louder, now you focus on it. Horrific images start to form in your mind. Suffer 2 face down Horror ({influence} negates; you may not use Clue tokens to convert {clue} to {success} for <i><b>this test</b></i>). Throw away as many clues as Horror suffered. If you negate all Horrors, you realize that the answer sounded controlled as if this person is under some mind influence and you dismiss the images. If suffer one or more Horror, you start to question yourself and the images turn into daytime nightmares. Turn one Horror face up
 EventQTestClueHearAgility.button1,{qst:CONTINUE}
 EventQTestClueHear.button1,Button1
-EventTownSquareRemoveInvestigators.text,You recognize the harbor district from an article in last week's newspaper. It was an interview with the customs officer who recently lost his hearing due to an explosion while working in the warehouse. He had to quit his job and became gardener in the park. He also mentioned the new harbormaster taking over his bell tower duties. \nThe article did not go into details about what <i>'Bell tower duties'</i>  meant. Best find that customs officer to ask him about this. \nEach investigator begins with 2 Clues.
+EventTownSquareRemoveInvestigators.text,You recognize the harbor district from an article in last week's newspaper. It was an interview with the customs officer who recently lost his hearing due to an explosion while working in the warehouse. He had to quit his job and became gardener in the park. He also mentioned the new harbormaster taking over his bell tower duties. \nThe article did not go into details about what <i>'Bell tower duties'</i>  meant. Best find that customs officer to ask him about this.
 EventTownSquareRemoveInvestigators.button1,{qst:CONTINUE}
 EventStoreFrontStealGun.button1,{action} Grab gun
 EventStoreFrontStealGun.button2,{qst:CANCEL}
@@ -720,3 +719,5 @@ EventQRemoveOfficeRootCellarDoor.button1,{qst:CONTINUE}
 EventQAdjustDifficulty2.button1,Button1
 EventQAdjustDifficulty.button1,Button1
 EventQAdjustDifficulty4OrMore.button1,Button1
+EventQStart.button1,{qst:CONTINUE}
+EventQStart.text,Each investigator begins with 2 Clues.

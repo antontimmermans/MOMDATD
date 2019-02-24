@@ -17,3 +17,5 @@ The scenario can be played with the game Mansions Of Madness 2nd edition, no exp
 19-01-2019 v1.3 implemented improvements listed in issue #3; improved various issues
 
 16-02-2019 v1.4 Implemented improvement listed in issues #5 & #6; prepared for 2.2
+
+24-02-2019 v1.4 Implemented improvement listed in issues #7; Updated for Valkyrie 2.2.003
