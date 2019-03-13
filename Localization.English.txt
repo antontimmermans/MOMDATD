@@ -1,10 +1,10 @@
 .,English
-quest.description,Something strange is going on at the docks of Tarrmouth.\nRecently strange men have appeared and a disturbing humming sound is chasing the seagulls away. It feels unnatural, dangerous even. Surely it has to be investigated.\n\n<i>An adventure for Mansions of Madness 2nd edition. No expansions required. \n(Best played at screen aspect ratio 16*9)</i>\n\n<b>Note:</b> Replaying this scenario requires investigators each time to find clues for the correct end-game solution. The end game solution is randomly generated.\n\n<i>(please report scenario bugs or suggestions for improvement at https://github.com/antontimmermans/MOMDATD)</i>
+quest.description,Something strange is going on at the docks of Tarrmouth.\nRecently strange men have appeared and a disturbing humming sound is chasing the seagulls away. It feels unnatural, dangerous even. Surely, it has to be investigated.\n\n<i>An adventure for Mansions of Madness 2nd edition. No expansions required. \n(Best played at screen aspect ratio 16*9)</i>\n\n<b>Note:</b> Replaying this scenario requires investigators each time to find clues for the correct end-game solution. The end game solution is randomly generated.\n\n<i>(Please report scenario bugs or suggestions for improvement at https://github.com/antontimmermans/MOMDATD)</i>
 quest.authors,Anton Timmermans\nWilliam van den Broek
 quest.name,Disturbance at the Docks
 quest.authors_short,Anton Timmermans
 quest.synopsys,What starts as an after dinner evening walk in town may turn out to become a nightmare...
-UIIntroductionText.uitext,You walk through Tarrmouth when suddenly you notice a strange sound. A low and almost inaudible humming noise is continuously present in the back of your mind and giving you a growing headache.\n\nIt is difficult to pinpoint the origin of the sound. Clearly its volume increases when you approach the docks.\n\nThe locals seem oblivious to the sound or maybe they just don't care.\n\nSomething must be wrong here so you decide to investigate.
+UIIntroductionText.uitext,You walk through Tarrmouth when suddenly you notice a strange sound. A low and almost inaudible humming noise is continuously present in the back of your mind and giving you a growing headache.\n\nIt is difficult to pinpoint the origin of the sound. Clearly, its volume increases when you approach the docks.\n\nThe locals seem oblivious to the sound or maybe they just do not care.\n\nSomething must be wrong here so you decide to investigate.
 CONTINUE,Continue
 CANCEL,Cancel
 ATTACK,Attack
@@ -25,18 +25,18 @@ EventTownSquareExploreTokens.button1,{qst:CONTINUE}
 EventTownSquarePlaceSearchFountain.button1,{qst:CONTINUE}
 EventTownSquarePlaceGreenMan.button1,{qst:CONTINUE}
 EventTownSquarePlaceInvestigators.text,Place your investigators in the {c:TileTownsquare} as indicated.
-EventTownSquareExploreTokens.text,The office of the harbor master is located at the town square. The harbor master is known for his temper. But if anyone knows what goes on in the docks, it's him. Place an Explore Token as indicated.
-TokenExploreTownSquareOffice.text,The light that seeps through cracks in the door of the harbor master's office draws an aerie pattern on the town square.
+EventTownSquareExploreTokens.text,The office of the harbormaster is located at the town square. The harbormaster is known for his temper. However, if anyone knows what goes on in the docks, it is he. Place an Explore Token as indicated.
+TokenExploreTownSquareOffice.text,The light that seeps through cracks in the door of the harbormaster's office draws an aerie pattern on the town square.
 EventTownSquarePlaceSightStoreFront.text,Through the dim streetlights you can barely make out what must be the rest of the dock area. You hear the sound of lapping waves in the west. Place a Sight Token as indicated.
 EventTownSquarePlaceGreenMan.text,Leaning against the street lantern you see a dockworker smoking a cigarette. Place the Green Man Token as indicated. This is the dockworker.
 TokenSearchFountain.button1,{qst:SEARCH}
 TokenSearchFountain.text,You see a shiny object stuck between two cobblestones.
-EventTownSquareSearchFountainKey.text,You firmly pull the small metal item from its entrapment. It's a key with a small piece of bright blue string attached to it, as if once a label was tied to the key. Someone must have lost it here recently. You gain the Brass Key unique item. Discard the search token. You gain 1 Clue.
-EventPierPlaceTile.text,The waves are lapping into the deserted pier. The pale moonlight is reflected in the water. Place the {c:TilePier} tile as indicated and remove all connecting tokens.
+EventTownSquareSearchFountainKey.text,You firmly pull the small metal item from its entrapment. It is a key with a small piece of bright blue string attached to it, as if once a label was tied to the key. Someone must have lost it here recently. You gain the Brass Key unique item. Discard the search token. You gain 1 Clue.
+EventPierPlaceTile.text,The waves are lapping into the deserted pier. The pale moonlight reflects in the water. Place the {c:TilePier} tile as indicated and remove all connecting tokens.
 TokenSightTownSquareStreet2.button1,{qst:CONTINUE}
 EventTownSquarePlaceInvestigators.button1,{qst:CONTINUE}
 TokenSightTownSquareStreet2.text,In the east you see a small street. An investigator adjacent to this Sight Token may reveal the area.
-EventStoreFrontPlaceTile.text,The street connects the town square with the pier. The back side of a big warehouse casts a dark shadow in the street. The light that illuminates the street comes from a shop opposite to the warehouse. Place the {c:TileStorefront} tile as indicated and remove all tokens connecting to it.
+EventStoreFrontPlaceTile.text,The street connects the town square with the pier. The backside of a big warehouse casts a dark shadow in the street. The light that illuminates the street comes from a shop opposite to the warehouse. Place the {c:TileStorefront} tile as indicated and remove all tokens connecting to it.
 EventStreet2PlaceSightToken.text,Around the corner the weeds are growing onto the street. Place a Sight Token as indicated.
 EventStreet2PlaceSightToken.button1,{qst:CONTINUE}
 TokenExploreStreet2Door.text,The door of this shop is slightly ajar. It looks abandoned. A greenish light is emanating through the crack.
@@ -54,7 +54,7 @@ ORANGEBOYSAD,"{action} <i>""Why are you so sad?""</i>"
 EventOrangeBoyDialogueAll.button3,{qst:SEENSTRANGE}
 EventOrangeBoyDialogueAll.button1,{qst:ORANGEBOYSAD}
 EventOrangeBoyDialogueAll.button2,{qst:ORANGEBOYSOUND}
-EventOrangeBoyAskSad.text,"The little boy dries his eyes. <i>""I can't play in me secret hidin' place anymore. A nasty lady has kicked me out and she threatened me. <b>Run while you still can</b> is what she said.""</i> the boys says while he raises his little fist and looking angry. Then in a sad little voice he asks:.<i> ""Please can you make 'er go out of the old snack shack on the pier?"".</i> You gain 1 Clue."
+EventOrangeBoyAskSad.text,"The little boy dries his eyes. <i>""I can't play in me secret hidin' place anymore. A nasty woman has kicked me out and she threatened me. <b>Run while you still can</b> is what she said.""</i> the boys says while he raises his little fist and looking angry. Then in a sad little voice, he asks: <i> ""Please can you make 'er go out of the old snack shack on the pier?"".</i> You gain 1 Clue."
 EventOrangeBoyDialogueAll.text,The boy looks up at you with watery eyes.
 EventOrangeBoyAskSad.button1,{qst:CONTINUE}
 EventOrangeBoyAskSound.text,"<i>""You 'ear that too? It is giving me a 'eadache but me dad says 'im don't 'ear it. Near the docks it gets louder"". </i> You gain 1 Clue."
@@ -67,27 +67,27 @@ EventOrangeBoyDialogueNone.text,"<i>""Please chase the woman from the snack shac
 EventOrangeBoyDialogueNone.button1,{qst:CONTINUE}
 EventOrangeBoyDialogueSad.button2,{qst:NEVERMIND}
 TokenOrangeBoyStoreFront.button1,{qst:CONTINUE}
-EventOrangeBoyDialogueNoneShack.text,"<i>""Thanks a lot. I got me hidin' place back. Tell no-one right? it be our secret""</i>"
+EventOrangeBoyDialogueNoneShack.text,"<i>""Thanks a lot. I got me hidin' place back. Tell no one, right? It be our secret""</i>"
 EventOrangeBoyDialogueNoneShack.button1,{qst:CONTINUE}
 EventPierPlaceOrangeBoyToken.text,When the little boy sees the woman stepping out of the shack he sneaks behind her to his hiding place. Move the Orange Person Token as indicated.
 EventPierPlaceOrangeBoyToken.button1,{qst:CONTINUE}
 EventOrangeBoyDialogueSound.button1,{qst:ORANGEBOYSOUND}
 EventOrangeBoyDialogueAll.button4,{qst:NEVERMIND}
-EventOrangeBoyAskSeen.text,"<i>""Not lately. I sometimes saw the old customs officer entering the rentalshack, locking the door behind'im and then coming out of the ware'ouse some minutes later. Him thought nobody saw 'im, but I dids""</i> . The little boy says proudly while pointing at himself. He continues <i>""I never figured out how 'im dids it and I guess I never will.  After the accident quit 'is customs job, spendin' most of 'is time now in the park secretly drinkin' whiskey""</i>. You gain 1 Clue."
+EventOrangeBoyAskSeen.text,"<i>""Not lately. I sometimes saw the old customs officer entering the rental shack, locking the door behind'im and then coming out of the ware'ouse some minutes later. Him thought nobody saw 'im, but I dids""</i> . The little boy says proudly while pointing at himself. He continues: <i>""I never figured out how 'im dids it and I guess I never will. After the accident quit 'is customs job, spendin' most of 'is time now in the park secretly drinkin' whiskey""</i>. You gain 1 Clue."
 EventOrangeBoyAskSeen.button1,{qst:CONTINUE}
 EventOrangeBoyDialogueSeen.text,"Rubbing the temples of his head the boy looks at you. <i>""Yes?"" </i>"
 EventOrangeBoyDialogueSeen.button1,{qst:SEENSTRANGE}
-EventOrangeBoyDialogueSeenSound.text,"With a weak smile the boy looks at you and says <i>""How can I help you?""</i>"
+EventOrangeBoyDialogueSeenSound.text,"With a weak smile the boy looks at you and says: <i>""How can I help you?""</i>"
 EventOrangeBoyDialogueSeenSound.button1,{qst:ORANGEBOYSOUND}
 EventOrangeBoyDialogueSeenSound.button2,{qst:SEENSTRANGE}
 EventOrangeBoyDialogueSeenSound.button3,{qst:NEVERMIND}
-EventOrangeBoyDialogueSeenSad.text,"With a weak smile the boy looks at you and says <i>""How can I help you?""</i>"
+EventOrangeBoyDialogueSeenSad.text,"With a weak smile the boy looks at you and says: <i>""How can I help you?""</i>"
 EventOrangeBoyDialogueSeenSad.button1,{qst:ORANGEBOYSAD}
 EventOrangeBoyDialogueSeenSad.button2,{qst:SEENSTRANGE}
 EventOrangeBoyDialogueSeenSad.button3,{qst:NEVERMIND}
 EventOrangeBoyDialogueSoundSad.button1,{qst:ORANGEBOYSAD}
 EventOrangeBoyDialogueSoundSad.button2,{qst:SEENSTRANGE}
-EventOrangeBoyDialogueSoundSad.text,"With a weak smile the boy looks at you and says <i>""How can I help you?""</i>"
+EventOrangeBoyDialogueSoundSad.text,"With a weak smile the boy looks at you and says: <i>""How can I help you?""</i>"
 EventOrangeBoyDialogueSoundSad.button3,{qst:NEVERMIND}
 TokenGreenMan.button1,{qst:CONTINUE}
 EventGreenManAskStrangeSound.button1,{qst:CONTINUE}
@@ -95,7 +95,7 @@ EventGreenManAskSeenStrange.text,The dockworker looks at you in silence, judging
 EventGreenManDialogueSeenSound.button2,{qst:SEENSTRANGE}
 EventGreenManAskSeenFail.button1,{qst:CONTINUE}
 EventGreenManAskSeenStrange.button1,{qst:CONTINUE}
-EventGreenManAskSeenSuccess.text,"<i>""Now that you are asking, yes. Four robed men left the harbor master's office this morning. Two of them walked hastily into the street to my right and one walked fast down the other street towards the pier. The fourth washed his hands in the fountain after which he took off down the street to the pier. I could swear I saw a strange green object sticking out of his pocket"".</i> Gain 2 Clues."
+EventGreenManAskSeenSuccess.text,"<i>""Now that you are asking, yes. Four robed men left the harbormaster's office this morning. Two of them walked hastily into the street to my right and one walked fast down the other street towards the pier. The fourth washed his hands in the fountain after which he took off down the street to the pier. I could swear I saw a strange green object sticking out of his pocket"".</i> Gain 2 Clues."
 EventGreenManAskSeenFail.text,"<i>""I don't know you and I don't trust you"". </i>The dockworker snorts <i>""Too many weird robed figures and nosy strangers walking around the docks today"".</i> Gain 1 Clue."
 EventGreenManAskSeenSuccess.button1,{qst:CONTINUE}
 TokenSightTownSquareFrontStreet.text,An investigator adjacent to this Sight Token may reveal the area.
@@ -107,11 +107,11 @@ TokenExploreStoreFront.button1,{qst:CONTINUE}
 EventStoreFrontPlaceExplore.button1,{qst:CONTINUE}
 EventStoreFrontPlaceSight.text,In the distance you see the pale moonlight reflecting in the waves. Place a Sight Token as indicated.
 EventStoreFrontPlaceSight.button1,{qst:CONTINUE}
-EventStoreFrontPlaceOrangeBoy.text,On the street you see a little boy leaning casually against the back of the warehouse.\nPlace the Orange Person Token as indicated. This is the sad little boy.
+EventStoreFrontPlaceOrangeBoy.text,On the street you see a little boy leaning casually against the back of the warehouse. Place the Orange Person Token as indicated. This is the sad little boy.
 EventStoreFrontPlaceOrangeBoy.button1,{qst:CONTINUE}
 EventStoreFrontExploreShopOpen.button1,{qst:OPEN} the door
 EventStoreFrontExploreShopOpen.text,A single oil lamp lights the shop.
-EventStoreFrontPlaceShopkeeper.text,"A stocky woman with dark curls cursing under her breath is busy sweeping up the shop floor. Without turning towards you she barks <i>""Hurry up with your business. The shop is about to close"".</i> Place the White Person Token as indicated. This is the shopkeeper. "
+EventStoreFrontPlaceShopkeeper.text,"A stocky woman with dark curls cursing under her breath is busy sweeping up the shop floor. Without turning towards you, she barks: <i>""Hurry up with your business. The shop is about to close"".</i> Place the White Person Token as indicated. This is the shopkeeper. "
 EventStoreFrontPlaceShopkeeper.button1,{qst:CONTINUE}
 EventStoreFrontExploreShopOpen.button2,{qst:CANCEL}
 EventStoreFrontOpenDoor.text,A small bell announces your entry in the shop. Remove the Explore Token.
@@ -121,14 +121,14 @@ EventStoreFrontPlaceWall.button1,{qst:CONTINUE}
 EventStoreFrontOpenDoor.button1,{qst:CONTINUE}
 EventStoreFrontExploreShopClosed.text,"The shop is closed but there may still be useful equipment that you can ""loan"" in this emergency situation. You may attempt to pick the lock using your {agility} skill."
 PuzzleStoreFrontPickLock.button1,Open
-EventStoreFrontBreakIn.text,"The bell startles you. But nobody is here to stop you. You have all the time to ""shop"" around. Remove the Explore Token. "
+EventStoreFrontBreakIn.text,"The bell startles you. However, nobody is here to stop you. You have all the time to ""shop"" around. Remove the Explore Token. "
 EventStoreFrontBreakIn.button1,{qst:CONTINUE}
 TokenWhiteWoman.button1,{action} Buy bladed weapon
 TokenWhiteWoman.text,"The shopkeeper looks up at you. <i>""What do you want to buy?. I have a {c:QItemStoreFrontBuyBladed} and a {c:QItemStoreFrontBuyHeavy} for sale""</i>."
 EventStoreFrontPlaceSearch.text,The locked display contains a gun. Place a Search Token as indicated.
 EventStoreFrontPlaceSearch.button1,{qst:CONTINUE}
 EventStoreFrontCloseShop.button1,{qst:CONTINUE}
-EventStoreFrontCloseShop.text,"After doing business shopkeeper walks with you to the door and out to the street. <i>""Thank you and come again tomorrow""</i> she says as she closes the shop. The shopkeeper walks away. Remove the White Person Token, place an Explore Token as indicated and move all investigators from the shop to the street in front of the shop."
+EventStoreFrontCloseShop.text,"After doing business shopkeeper walks with you to the door and out to the street. <i>""Thank you and come again tomorrow""</i>, she says as she closes the shop. The shopkeeper walks away. Remove the White Person Token, place an Explore Token as indicated and move all investigators from the shop to the street in front of the shop."
 EventSearch2PlaceToken.text,There may still be something of interest behind the counter. Place a Search Token as indicated.
 EventSearch2PlaceToken.button1,{qst:CONTINUE}
 TokenSearchStoreFront2.text,Whatever the woman was selling, she must have kept it behind her counter.
@@ -137,11 +137,10 @@ TokenSearchStoreFront.button1,{action} Grab gun
 EventStoreFrontStealingBladed.text,You knew this was back there. The shopkeeper was trying to sell this earlier. You gain the {c:QItemStoreFrontBuyBladed} common item.
 EventStoreFrontExploreShopClosed.button2,{qst:CANCEL}
 TokenSearchStoreFront2.button1,{action} Check for items
-EventStoreFrontStealGun.text,"The display contains a {c:QItemStoreFrontGun} with a note attached reading ""SOLD"". You may attempt an {agility} roll to take the gun without the shopkeeper noticing it."
-TokenSearchStoreFront.button2,{qst:CANCEL}
+EventStoreFrontStealGun.text,"The display contains a {c:QItemStoreFrontGun} with a note attached reading ""SOLD"". If you are quick enough you might be able the grab the gun without the storekeeper noticing it."
 EventStoreFrontStealingGunSuccess.text,With the shopkeeper's back turned to you you manage to quickly open the display without making a noise. You put the {c:QItemStoreFrontGun} in your pocket.
 EventStoreFrontStealingGunSuccess.button1,{qst:CONTINUE}
-EventStoreFrontStealingGunFail.text,"You quickly open the display but the door makes a squeaky sound. The shopkeeper turns, takes a gun and yells <i>""THIEF"".</i> She fires the gun at you as you run out of the shop. She closes the shop behind her and tries follow but she lost sight of you. Remove the Person Token, place the Explore Token as indicated. Place all investigators in the shop back to the starting position. The stealing investigator suffers 2 face down damage ({agility} negates)."
+EventStoreFrontStealingGunFail.text,"You quickly open the display but the door makes a squeaky sound. The shopkeeper turns, takes a gun and yells <i>""THIEF"".</i> She fires the gun at you as you run out of the shop. She closes the shop behind her and tries follow but she lost sight of you. Remove the Person Token and place the Explore Token as indicated. Place all investigators in the shop back to the starting position. The stealing investigator suffers 2 facedown damage ({agility} negates)."
 EventStoreFrontStealingGunFail.button1,{qst:CONTINUE}
 EventStoreFrontTakeGun.text,You gain the {c:QItemStoreFrontGun} common item.
 EventStoreFrontTakeGun.button1,{qst:CONTINUE}
@@ -151,7 +150,7 @@ EventPierPlaceTile.button1,{qst:CONTINUE}
 EventDock1PlaceTile.text,The waves lap lazily against the docks. Place the {c:TileDock1} tile as indicated and remove all tokens connecting to this tile.
 EventPierPlaceExploreToken.button1,{qst:CONTINUE}
 EventPierPlaceExploreToken.text,A worn-out snack shack that stands at the end of the pier. It appears to be no longer in use considering the garbage piling up around it. A faint greenish light is visible through the cracks in the walls of the shack.
-EventPierPlaceSightTokenDock.text,To your left the dock continues towards the rental dock.\nPlace a Sight Token as indicated
+EventPierPlaceSightTokenDock.text,To your left the dock continues towards the rental dock. Place a Sight Token as indicated
 EventPierPlaceSightTokenStoreFront.button1,{qst:CONTINUE}
 EventPierPlaceSightTokenDock.button1,{qst:CONTINUE}
 EventPierPlaceSightTokenStoreFront.text,This street connects the pier with the town square. Place a Sight Token as indicated.
@@ -163,7 +162,7 @@ TokenSightDock1RentalDock.text,The rental docks are abandoned. An investigator a
 TokenSightDock1RentalDock.button1,{qst:CONTINUE}
 EventRentalDockPlaceTile.button1,{qst:CONTINUE}
 EventBellTowerPlaceTile.text,The bell in this tower is used to sound the alarm when a storm approaches from the sea. The humming sound is very loud here. Place the {c:TileBellTower} tile as indicated.
-EventRentalDockPlaceExploreRentalShack.text,The rental shack is closed for business. Behind the window you notice a faint green glow. Place the Explore Token as indicated.
+EventRentalDockPlaceExploreRentalShack.text,The rental shack is closed for business. You notice a faint green glow behind the window. Place the Explore Token as indicated.
 EventRentalDockPlaceSightToken.button1,{qst:CONTINUE}
 EventRentalDockPlaceSightToken.text,In the distance you see that the dock is quite big.
 EventDock1PlaceSightTokenRentalDock.button1,{qst:CONTINUE}
@@ -199,17 +198,17 @@ EventBellTowerSearchToken.button1,{qst:CONTINUE}
 EventBellTowerDoorKeyFound.text,The door opens with a soft click.
 EventBellTowerDoorKeyFound.button1,{qst:CONTINUE}
 EventBellTowerPlaceTile.button1,{qst:CONTINUE}
-EventWarehousePlaceTile.text,The warehouse is stacked with crates and boxes. Place the  {c:TileWarehouse} tile as indicated and remove all tokens connected to this tile.
+EventWarehousePlaceTile.text,The warehouse is stacked with crates and boxes. Place the {c:TileWarehouse} tile as indicated and remove all tokens connected to this tile.
 EventBellTowerPlaceInteractToken.text,A copper bell hangs in the top of the tower. Place an Interact Token as indicated.
 EventBellTowerPlaceInteractToken.button1,{qst:CONTINUE}
 EventBellTowerPlaceSearchToken.text,On the floor you see some scratching marks and a handle. Place a Search Token as indicated.
 EventBellTowerPlaceSearchToken.button1,{qst:CONTINUE}
 EventTownSquarePlaceTile.text,You approach the docks district from the north and enter the town square. The sound is growing louder here, so you must be in the right place. Place the {c:TileTownsquare} tile.
 TokenExploreTownSquareOffice.button1,{qst:OPEN}
-EventOfficePlaceTile.text,The lights are still on in the harbor master's office. Place the {c:TileOffice} tile as indicated. Remove all other tokens connecting to this tile.
+EventOfficePlaceTile.text,The lights are still on in the harbormaster's office. Place the {c:TileOffice} tile as indicated. Remove all other tokens connecting to this tile.
 EventOfficePlaceTile.button1,{qst:CONTINUE}
-EventOfficePlaceGreyManToken.text,The harbor master seems to be too occupied with his work to notice you entering the room. Place the Grey Man token as indicated. This is the harbor master.
-TokenExploreOfficeFleaMarket.text,This door is a shortcut for the harbor master from his office to the market.
+EventOfficePlaceGreyManToken.text,The harbormaster is too occupied with his work to notice you entering the room. Place the Grey Man token as indicated. This is the harbormaster.
+TokenExploreOfficeFleaMarket.text,This door is a shortcut for the harbormaster from his office to the market.
 EventOfficePlaceExploreTokenRootCellar.button1,{qst:CONTINUE}
 EventOfficePlaceExploreTokenFleaMarket.text,Behind this door you hear the sound of shouting market vendors. Place an Explore Token as indicated.
 EventOfficePlaceExploreTokenFleaMarket.button1,{qst:CONTINUE}
@@ -217,12 +216,12 @@ TokenExploreOfficeFleaMarket.button1,{qst:OPEN}
 EventMarketPlaceTile.text,The smell of fish and the sound of market vendors welcomes you when you enter the market. Place the {c:TileFleaMarket} tile as indicated and remove all connections to it.
 EventMarketPlaceTile.button1,{qst:CONTINUE}
 EventMarketPlacePurplePersonToken.button1,{qst:CONTINUE}
-EventMarketPlaceRedPersonToken.text,"Next to the secondhand bookstand a young lady holds up a book. <i>""Please sir, buy this book from me, I need the money"". ""That book contains only jibberish""</i> the salesman says. <i>""No, I don't want it, take your business elsewhere"".</i> Place the Red Person Token as indicated. This is the desparate young woman."
-EventMarketPlacePurplePersonToken.text,"In the marketstand a woman yells <i>""FISH for sale, FRESH FISH"".</i> Place the Purple Person Token as indicated. This is the fishvendor."
+EventMarketPlaceRedPersonToken.text,"Next to the secondhand bookstand a young lady holds up a book. <i>""Please sir, buy this book from me, I need the money"". ""That book contains only gibberish""</i>, the salesman says. <i>""No, I don't want it, take your business elsewhere"".</i> Place the Red Person Token as indicated. This is the desperate young woman."
+EventMarketPlacePurplePersonToken.text,"In the market stand a woman yells <i>""FISH for sale, FRESH FISH"".</i> Place the Purple Person Token as indicated. This is the fish vendor."
 EventMarketPlaceRedPersonToken.button1,{qst:CONTINUE}
 EventMarketPlaceSightTokenYard4.button1,{qst:CONTINUE}
 EventQMoveOneSpace.button1,{qst:CONTINUE}
-EventMarketPlaceExploreTokenOffice.text,The harbor master oversees the trade in the local market.This door leads to his office. Place an Explore Token as indicated.
+EventMarketPlaceExploreTokenOffice.text,The harbormaster oversees the trade in the local market. This door leads to his office. Place an Explore Token as indicated.
 EventMarketPlaceExploreTokenOffice.button1,{qst:CONTINUE}
 EventMarketPlaceExploreTokenWarehouse.text,A worn down door in the corner of the market gives entry to the warehouse. Place an Explore Token as indicated.
 EventMarketPlaceExploreTokenWarehouse.button1,{qst:CONTINUE}
@@ -230,24 +229,24 @@ EventMarketPlaceSightTokenYard4.text,To the east you see the park. Place the Sig
 EventOfficePlaceGreyManToken.button1,{qst:CONTINUE}
 EventOfficePlaceBarricadeToken.button1,{qst:CONTINUE}
 EventQMoveOneSpace.text,You may move 1 space in the revealed area.
-EventOfficePlaceExploreTokenRootCellar.text,"Behind the harbor master's desk you see a door labeled ""Private"". Place an Explore Token as indicated"
+EventOfficePlaceExploreTokenRootCellar.text,"Behind the harbormaster's desk you see a door labeled ""Private"". Place an Explore Token as indicated"
 TokenExploreWareHouseFleaMarket.text,This old warehouse door is used too often. The lock is broken and the wood is beginning to rot.
 TokenExploreWareHouseFleaMarket.button1,{qst:OPEN}
 TokenSightYard4FleaMarket.text,An investigator adjacent to this Sight Token may reveal the next area.
 TokenSightYard4FleaMarket.button1,{qst:CONTINUE}
-EventYard4PlaceTile.text,This part of the park is dark and quiet. Through the cracks in the wood of the small tool shed you see a faint green glow. Place the {c:TileYard4} tile as indicated and remove connecting tokens.
+EventYard4PlaceTile.text,This part of the park is dark and quiet. Through the cracks in the wood of the small toolshed, you see a faint green glow. Place the {c:TileYard4} tile as indicated and remove connecting tokens.
 EventYard4PlaceTile.button1,{qst:CONTINUE}
-EventYard4PlaceExploreToolshed.text,The door to the tool shed is not completely closed. Place an Explore Token as indicated.
+EventYard4PlaceExploreToolshed.text,The door to the toolshed is not completely closed. Place an Explore Token as indicated.
 EventYard4PlaceExploreToolshed.button1,{qst:CONTINUE}
 EventYard4PlaceSightTokenFleaMarket.text,To the west you hear noises from the local market. Place a Sight Token as indicated.
 EventYard4PlaceSightTokenFleaMarket.button1,{qst:CONTINUE}
 EventYard4PlaceSightTokenYard3.text,The small park extends to the north. Place a Sight Token as indicated.
 EventYard4PlaceSightTokenYard3.button1,{qst:CONTINUE}
-EventYard4PlaceExploreTokenRootcellar.text,"A small building is connected to the harbor master's office. The door has a sign ""Private. KEEP OUT"" pinned on it. Place an Explore Token as indicated."
+EventYard4PlaceExploreTokenRootcellar.text,"A small building is connected to the harbormaster's office. The door has a sign ""Private. KEEP OUT"" pinned on it. Place an Explore Token as indicated."
 EventYard4PlaceExploreTokenRootcellar.button1,{qst:CONTINUE}
 TokenSightStreet2Yard3.text,The weed of the unkept park is creeping onto the street. An investigator adjacent to this token may reveal the next area.
 TokenSightStreet2Yard3.button1,{qst:CONTINUE}
-EventYard3PlaceTile.text,This part of the park is badly maintained. In the weeds you notice a small sandy path revealing that sometimes people use this as a shortcut. Place the {c:TileRootCellar} tile as indicated and remove all connecting tokens.
+EventYard3PlaceTile.text,This part of the park is badly maintained. In the weeds, you notice a small sandy path revealing that sometimes people use this as a shortcut. Place the {c:TileRootCellar} tile as indicated and remove all connecting tokens.
 EventYard3PlaceTile.button1,{qst:CONTINUE}
 EventYard3PlaceExploreRootCellar.text,Between the overgrown weeds and garbage you see the metal of a rusty gate. Place the Explore Token as indicated.
 EventYard3PlaceExploreRootCellar.button1,{qst:CONTINUE}
@@ -259,24 +258,24 @@ TokenSightYard3Yard4.button1,{qst:CONTINUE}
 TokenExploreRootCellarYard3.text,Through the garbage and the weed you make out a metal gate. You may attempt to move the garbage and the weed by testing your {strength}.
 TokenExploreRootCellarYard3.button1,{action} Clear
 EventRootCellarPlaceTile.button1,{qst:CONTINUE}
-EventExploreOfficeRootcellarSafe.text,Now the harbor master is dead, you can safely open this door.
-EventYard3PlaceSightToken.text,Throught the overgrown you see a street lantern's reflection i in a puddle of water in the street. Place a Sight Token as indicated
+EventExploreOfficeRootcellarSafe.text,Now the harbormaster is dead, you can safely open this door.
+EventYard3PlaceSightToken.text,Throught the overgrown you see a street lantern's reflection in a puddle of water in the street. Place a Sight Token as indicated
 EventYard3PlaceSightToken.button1,{qst:CONTINUE}
 EventYard3PlaceSearchTokenRootCellar.button1,{qst:CONTINUE}
-EventRootCellarPlaceExploreOffice.text,This cellar has a backdoor into the office of the harbor master. Place an Explore Token as indicated.
+EventRootCellarPlaceExploreOffice.text,This cellar has a backdoor into the office of the harbormaster. Place an Explore Token as indicated.
 EventRootCellarPlaceExploreOffice.button1,{qst:CONTINUE}
 EventExploreOfficeRootCellarUnsafe.button1,{qst:OPEN}
 TokenExploreOfficeRootCellar.button1,{qst:OPEN}
 EventRootCellarPlaceExploreYard4.text,One door in the cellar leads to the park. Place an Explore Token as indicated.
 EventRootCellarPlaceExploreYard4.button1,{qst:CONTINUE}
-TokenExploreRootCellarYard4.text,The backdoor into the harbor master's shed is closed with a combination lock. You might be able to guess the right combination using your {observation} skill.
+TokenExploreRootCellarYard4.text,The backdoor into the harbormaster's shed is closed with a combination lock. You might be able to guess the right combination using your {observation} skill.
 TokenExploreRootCellarYard4.button1,{qst:OPEN}
 EventRootCellarPlaceExploreTokenYard3.button1,{qst:CONTINUE}
 EventYard3PlaceSightTokenStreet2.text,Through the weeds you see the lamplight reflected in the wet cobblestones of a street. Place a Sight Token as indicated.
 EventYard3PlaceSightTokenStreet2.button1,{qst:CONTINUE}
 EventYard3RemoveGarbageFailed.text,You try to move the boxes but they are overgrown with weeds. Your attempt to move them failed.
 EventYard3RemoveGarbageFailed.button1,{qst:CONTINUE}
-EventYard3RemoveGarbageSuccess.text,With all your might your pull the weeds and the garbage. Remove the Seach Token.
+EventYard3RemoveGarbageSuccess.text,With all your might, you pull the weeds and the garbage. Remove the Search Token.
 EventYard3RemoveGarbageSuccess.button1,{qst:CONTINUE}
 EventBellTowerPlaceTrapDoorToken.text,A trap door opens up in the bell tower. Place a Trap Door Token as indicated.
 EventBellTowerPlaceTrapDoorToken.button1,{qst:CONTINUE}
@@ -288,10 +287,10 @@ UIGemmedBell.button1,{qst:CONTINUE}
 TokenInteractBell.button1,{qst:CONTINUE}
 EventBellTowerPlaceGemsPassed.button1,{qst:CONTINUE}
 EventBellTowerPlaceGemsPassed.text,You managed to place the stones into their correct position.
-EventBellTowerPlaceGemsFailed.text,You try a combination with placing the stones but something is wrong. The frequency does not change. The noise continues and you fear all is lost. You gain 1 face down Horror ({will} negates) and then you flip 1 Horror face up.
+EventBellTowerPlaceGemsFailed.text,You try a combination with placing the stones but something is wrong. The frequency does not change. The noise continues and you fear all is lost. You gain 1 facedown Horror ({will} negates) and then you flip 1 Horror face up.
 EventBellTowerPlaceGemsFailed.button1,{qst:CONTINUE}
 EventBellTowerPlaceGemsNotEnough.button1,{qst:CONTINUE}
-EventBellTowerPlaceGemsNotEnough.text,You look at the bell and you realize you don't have enough items to place in the indents. You panic as you realize you might be to late to stop the inevitable. Gain 2 Horror ({will} negates) then flip 2 horror face up.
+EventBellTowerPlaceGemsNotEnough.text,You look at the bell and you realize you don't have enough items to place in the indents. You panic as you realize you might be too late to stop the inevitable. Gain 2 Horror ({will} negates) then flip 2 horror face up.
 TokenBlueMan.button1,{qst:CONTINUE}
 BLUEMANTOWER,"{action} <i>""What do you know about the bell tower?""</i>"
 EventBlueManNoGems.button1,{qst:CONTINUE}
@@ -313,10 +312,10 @@ TokenExploreRentalShack.text,The door to the rental shack is locked. The investi
 TokenExploreRentalShack.button1,{action} Use Key
 EventRentalDockOpenShackKey.text,You carefully unlock the door with your Brass Key.
 EventRentalDockOpenShackKey.button1,{qst:CONTINUE}
-EventRentalDockPlaceSearchTokenRentalshack.text,A pile of boxes is stacked  in the corner of the shack.
+EventRentalDockPlaceSearchTokenRentalshack.text,A pile of boxes is stacked in the corner of the shack.
 EventRentalDockPlaceSearchTokenRentalshack.button1,{qst:CONTINUE}
 TokenSearchRentalShack.text,These crates might contain something useful.
-SpawnCultistRentalShack.text,"You are surprised by a robed woman that jumps from behind the counter of the rentalshack while screaming: <i>""YOU WILL NEVER STOP US ALL"".</i> Place a Cultist as indicated."
+SpawnCultistRentalShack.text,"You are surprised by a robed woman that jumps from behind the counter of the rental shack while screaming: <i>""YOU WILL NEVER STOP US ALL"".</i> Place a Cultist as indicated."
 EventRentalShackPlaceNoTile.button1,{qst:CONTINUE}
 EventRentalShackPlaceTile.text,The trapdoor leads towards to a small shack on the rental dock.
 EventRentalShackPlaceSecretPassage.text,You find a small hidden door. Place a Secret Door Token as indicated.
@@ -327,39 +326,39 @@ EventRentalShackPlaceSearchToken.text,A stack of boxes stands in the corner of t
 EventRentalShackPlaceSearchToken.button1,{qst:CONTINUE}
 EventBellTowerPlaceExploreWarehouse.button1,{qst:CONTINUE}
 EventBellTowerPlaceExploreWarehouse.text,That locked door must lead to the warehouse.
-SpawnHarborMaster.text,"In a calm but icy voice the harbor master says: <i>""You are not interfering with my plan, damn you"".</i> He slowly rises and prepares to attack. Replace the Grey Man Token with a Priest of Dagon at the indicated location. This is the harbor master. "
+SpawnHarborMaster.text,"In a calm but icy voice the harbormaster says: <i>""You are not interfering with my plan, damn you"".</i> He slowly rises and prepares to attack. Replace the Grey Man Token with a Priest of Dagon at the indicated location. This is the harbormaster. "
 SpawnHarborMaster.button1,{qst:CONTINUE}
 EventQHarbormasterDies.button1,{qst:CONTINUE}
-EventQHarbormasterDies.text,"<i>""NOOOOOOO! You don't know what you have done. I was the only one that could control it.""</i> With these dying words the harbor master falls to the ground. You notice a silver key in his pocket and take it. You gain the Silver Key Unique item."
+EventQHarbormasterDies.text,"<i>""NOOOOOOO! You don't know what you have done. I was the only one that could control it.""</i> With these dying words the harbormaster falls to the ground. You notice a silver key in his pocket and take it. You gain the Silver Key Unique item."
 EventQCultistDies.button1,{qst:CONTINUE}
 TokenExploreSnackShack.text,The door of the snack shack moves a little in the wind. Which is weird because there is hardly any.
 TokenExploreSnackShack.button1,{qst:OPEN}
 SpawnCultistSnackShack.button1,{qst:CONTINUE}
 SpawnCultistToolShed.button1,{qst:CONTINUE}
 SpawnCultistSnackShack.text,You open the door and a robed woman lunges at you screaming with a high pitch. Place a Cultist as indicated.
-TokenExploreToolShed.text,The door of the tool shed is not locked and you notice a some blood on the door handle.
-SpawnCultistToolShed.text,Opening the door startles a robed man who was just putting a band aid on his hand. Place a Cultist as indicated.
+TokenExploreToolShed.text,The door of the toolshed is not locked and you notice a some blood on the door handle.
+SpawnCultistToolShed.text,Opening the door startles a robed man who was just putting a band-aid on his hand. Place a Cultist as indicated.
 TokenExploreToolShed.button1,{qst:OPEN}
 TokenYard3SearchBush.button1,{qst:CONTINUE}
-EventYard3SearchBush.text,A closer inspection of the bush with throns reveals that someone must have passed it in a great hurry. Some of its branches have recently been broken and the blood on the thorns show that someone must have cut himself. You gain 1 Clue.
+EventYard3SearchBush.text,A closer inspection of the bush with thorns reveals that someone must have passed it in a great hurry. Some of its branches have recently been broken and the blood on the thorns show that someone must have cut himself. You gain 1 Clue.
 TokenYard3SearchBush.text,A bush with thorns seems to have some broken branches.
 EventYard3SearchBush.button1,{qst:CONTINUE}
 EventYard3PlaceSearchTokenBush.text,There is something odd about this little bush with thorns. Place a Search Token as indicated.
 EventYard3PlaceSearchTokenBush.button1,{qst:CONTINUE}
-EventRootCellarPlaceTile.text,The cellar behind the harbor master's office smells of herbs, burned candles and sulfer. Place the {c:TileRootCellar} tile as indicated and remove all connections to it.
+EventRootCellarPlaceTile.text,The cellar behind the harbormaster's office smells of herbs, burned candles and sulfur. Place the {c:TileRootCellar} tile as indicated and remove all connections to it.
 EventExploreOfficeRootcellarSafe.button1,{qst:OPEN}
-EventExploreOfficeRootCellarUnsafeSpawned.text,"The harbor master turns his anger towards you. <i>""YOU HAVE NO BUSINESS THERE""</i>. He moves 1 space in your direction preparing his next attack."
+EventExploreOfficeRootCellarUnsafeSpawned.text,"The harbormaster turns his anger towards you. <i>""YOU HAVE NO BUSINESS THERE""</i>. He moves 1 space in your direction preparing his next attack."
 EventExploreOfficeRootCellarUnsafeSpawned.button1,{qst:CONTINUE}
 EventExploreOfficeRootCellarUnsafeSpawn.button1,{qst:CONTINUE}
-EventExploreOfficeRootCellarUnsafeSpawn.text,The harbor master loses his temper when he sees you opening that door.
+EventExploreOfficeRootCellarUnsafeSpawn.text,The harbormaster loses his temper when he sees you opening that door.
 EventYard4PlaceBluePerson.button1,{qst:CONTINUE}
 EventYard4PlaceBluePerson.text,A man is busy trimming the bushes in the park. Place the Blue Person Token as indicated. This is the retired customs officer.
-EventBlueManAskTower.text,"<i>""That damn tower? Yeah! I bloody well know about it, I used to work there. Depending on the season I had to change the setting of the gems in the bell. I was told it would keep the seas calm ... silly superstition. I guess that is a task for the harbor master now"".</i> "
+EventBlueManAskTower.text,"<i>""That damn tower? Yeah! I bloody well know about it, I used to work there. Depending on the season, I had to change the setting of the gems in the bell. I was told it would keep the seas calm ... silly superstition. I guess that is a task for the harbormaster now"".</i> "
 EventBlueManAskTower.button1,{qst:CONTINUE}
-EventBlueManAskSound.text,"<i>""Haven't you noticed that I don't hear that well? It is why I had to quit my job. It happened when that keg of powder exploded. It was an accident the harbor master said  when he arrived to help me. He was very quick to arrive, within seconds after the blast.""</i> You gain 1 Clue."
+EventBlueManAskSound.text,"<i>""Haven't you noticed that I don't hear that well? It is why I had to quit my job. It happened when that keg of powder exploded. It was an accident the harbormaster said when he arrived to help me. He was very quick to arrive, within seconds after the blast.""</i> You gain 1 Clue."
 EventBlueManAskSound.button1,{qst:CONTINUE}
 EventBlueManAskSeenWeird.button1,{qst:CONTINUE}
-EventBlueManAskSeenWeird.text,"<i>""Not really, except for something moving in the tool shed. Must have been rats. This park is full of them"". </i> You gain 1 Clue."
+EventBlueManAskSeenWeird.text,"<i>""Not really, except for something moving in the toolshed. Must have been rats. This park is full of them"". </i> You gain 1 Clue."
 BLUEMANSOUND,"{action} <i>""What about this weird sound?""</i>"
 EventBlueManDialogueTowerSoundSeen.button2,{qst:BLUEMANSOUND}
 EventBlueManDialogueTowerSoundSeen.button3,{qst:SEENSTRANGE}
@@ -386,22 +385,22 @@ EventBlueManDialogueSound.text,"<i>""Yes?""</i> The retired customs officer look
 EventBlueManDialogueSeen.text,"<i>""Yes?""</i> The retired customs officer looks at you a bit annoyed. <i>""You ask quite a lot"".</i>"
 EventBlueManDialogueSeen.button1,{qst:SEENSTRANGE}
 EventBlueManDialogueSeen.button2,{qst:NEVERMIND}
-EventBlueManDialogueNoOptions.text,"<i>""I have nothing else to tell you"".</i> The man hums a tune which is quite off key and walks away. You notice that he left a bottle of whiskey behind and call him back but he doesn't hear you. Remove the Blue Person Token. Place the Whiskey Common Item on the indicated location."
+EventBlueManDialogueNoOptions.text,"<i>""I have nothing else to tell you"".</i> The man hums a tune which is quite off key and walks away. You notice that he left a bottle of whiskey behind and call him back but he does not hear you. Remove the Blue Person Token. Place the Whiskey Common Item on the indicated location."
 EventBlueManDialogueNoOptions.button1,{qst:CONTINUE}
 EventTownSquarePlaceSightStreet2.text,In the east you see a small street. Place a Sight Token as indicated.
 EventTownSquarePlaceSightStreet2.button1,{qst:CONTINUE}
 EventTownSquarePlaceSearchFountain.text,From the corner of your eye you notice a small glistening object on the street just beside the fountain. Place a Search Token as indicated.
 EventOfficePlaceDoorToken.button1,{qst:CONTINUE}
-EventOfficePlaceBarricadeToken.text,A small cabinet stands against the wall. This furniture could be used to barricade an entrance. Place the Barricade Token as indicated.
+EventOfficePlaceBarricadeToken.text,A small cabinet stands against the wall. This furniture can be used to barricade an entrance. Place the Barricade Token as indicated.
 PuzzleRootCellarDoor.button1,Open
 EventStoreFrontBuyBladedWeapon.button1,{qst:CONTINUE}
-EventStoreFrontBuyBladedWeapon.text,"<i>""So it is something sharp you want eh? Well here you have a beauty. Be careful now, it is really sharp"".</i> You gain the  {c:QItemStoreFrontBuyBladed} common item."
+EventStoreFrontBuyBladedWeapon.text,"<i>""So it is something sharp you want eh? Well here you have a beauty. Be careful now, it is really sharp"".</i> You gain the {c:QItemStoreFrontBuyBladed} common item."
 TokenWhiteWoman.button2,{action} Buy heavy weapon
 EventStoreFrontBuyHeavyWeapon.text,"<i>""Oh I see. Yes, with those muscles you can surely handle this"".</i> You gain the {c:QItemStoreFrontBuyHeavy} common item."
 EventStoreFrontBuyHeavyWeapon.button1,{qst:CONTINUE}
 EventStoreFrontStealingHeavy.text,You grab behind the counter and find the heavy weapon the shopkeeper tried to sell to you. You gain the {c:QItemStoreFrontBuyHeavy} common item.
 EventStoreFrontStealingBladed.button1,{qst:CONTINUE}
-EventStoreFrontStealingBoth.text,You hit the jackpot. With no shopkeeper around you take whatever you find. You gain the {c:QItemStoreFrontBuyBladed} common item.
+EventStoreFrontStealingBoth.text,You hit the jackpot. With no shopkeeper around, you take whatever you find. You gain the {c:QItemStoreFrontBuyBladed} common item.
 EventStoreFrontStealingBoth.button1,{qst:CONTINUE}
 EventStoreFrontStealBoth2.text,Oh wait, there is more. You gain the {c:QItemStoreFrontBuyHeavy} common item.
 EventStoreFrontStealBoth2.button1,{qst:CONTINUE}
@@ -416,25 +415,25 @@ UIRemoveBell.button1,Button1
 UIRemoveBell.uitext,<b>Clear</b>
 TokenRedWoman.button1,{action} Buy Book
 TokenRedWoman.text,"<i>""Please buy this book from me. The book salesman don't want it. I need the money to feed my little boy. So he doesn't have to hide in the docks anymore to stea... eeh... catch fish"" </i>"
-EventRedWomanBuyBook.text,"<i>""Oh Thank you.. THANK YOU""</i> she says. And before you can change your mind she takes the money, hands you the book and walks away. Remove the Red Person Token. A quick inspection of the book reveals it contains a spell. You gain {c:QItemRedWomanSpell}."
+EventRedWomanBuyBook.text,"<i>""Oh Thank you.. THANK YOU""</i> she says. Before you can change your mind, she takes the money, hands you the book and walks away. Remove the Red Person Token. A quick inspection of the book reveals it contains a spell. You gain {c:QItemRedWomanSpell}."
 EventRedWomanBuyBook.button1,{qst:CONTINUE}
-EventOfficeSearchPapersHarborMasterLives.text,Some pieces of torn paper lie on the table. You may test your {observation} to pick-up the papers without the harbor master noticing it.
+EventOfficeSearchPapersHarborMasterLives.text,Some pieces of torn paper lie on the table. You may test your {observation} to pick-up the papers without the harbormaster noticing it.
 TokenSearchOffice.button1,Continue
 EventOfficeSearchPapersSuccess.button1,{qst:CONTINUE}
 EventOldJournalPass.button1,{qst:CONTINUE}
 PuzzleOldJournal.button1,Read Journal
 EventOldJournalPass.text,You manage to put the pieces of paper in the correct order and the text on the paper start to make sense.
-EventOldJournalPuzzleNotSolved.text,This journal does not make any sense with all the papers in random order. You may attempt to place them in the correct order to read the journal using your  {lore} skill.
-EventOfficeSearchPapersFail.text,Just when you want to pick up the papers, the harbor master looks up and you and grunts. With a weak smile you nod at him but he returns his attention back to his work.
+EventOldJournalPuzzleNotSolved.text,This journal does not make any sense with all the papers in random order. You may attempt to place them in the correct order to read the journal using your {lore} skill.
+EventOfficeSearchPapersFail.text,Just when you want to pick up the papers, the harbormaster looks up and you and grunts. With a weak smile, you nod at him but he returns his attention back to his work.
 EventOfficePlaceSearchToken.button1,{qst:CONTINUE}
 EventOfficePlaceSearchToken.text,On the table lie some torn-up papers. Place a Search Token as indicated.
-EventOldJournalPage10.text,Day 10. I now understand the purpose of that ancient bell in the bell tower. With the stones positioned in the correct sockets the demon from the sea will be repelled.  The former harbor master did not understand the bells true power. It can also summon the demon. With the spell I found I will be able to bend the demons will to mine. If only that nosy customs officer wasn't in my way all the time. You gain 1 Clue.
+EventOldJournalPage10.text,Day 10. I now understand the purpose of that ancient bell in the bell tower. With the stones positioned in the correct sockets, the demon from the sea will be repelled. The former harbormaster did not understand the bells true power. It can also summon the demon. With the spell I found, I will be able to bend the demons will to mine. If only that nosy customs officer was not in my way all the time. You gain 1 Clue.
 EventOldJournalPage10.button1,{action} Read more
-EventOldJournalPage11.text,Day 11. I did it! A small diversion and an explosion and that meddling customs officer is out of my way. That silver bell tower key is mine now. I don't think he suspects anything. He thinks it was an accident. The time is right to set things in motion. First I need to gather four of my followers to hide and guard the stones. My plan could fail if some  dockworker or kid would find one by accident. You gain 1 Clue.
+EventOldJournalPage11.text,Day 11. I did it! A small diversion and an explosion, and that meddling customs officer is out of my way. That silver bell tower key is mine now. I don not think he suspects anything. He thinks it was an accident. The time is right to set things in motion. First, I need to gather four of my followers to hide and guard the stones. My plan could fail if some dockworker or kid would find one by accident. You gain 1 Clue.
 EventOldJournalPage11.button1,{action} Read more
-EventOldJournalPage12.text,Day 12.  It is set in motion and cannot be stopped. My fellow cultists took the stones and are now hiding in town. Now we wait. When the demon is summoned I need it to come to the town square and bind it to my will. I have everything prepared in my cellar. You gain 1 Clue.
+EventOldJournalPage12.text,Day 12. It is set in motion and cannot be stopped. My fellow cultists took the stones and are now hiding in town. Now we wait. When the demon is summoned, I need it to come to the town square and bind it to my will. I have everything prepared in my cellar. You gain 1 Clue.
 EventOldJournalPage12.button1,{qst:CONTINUE}
-EventOldJournalAllRead.text,You have read enough to know what to do. This journal does not contain more useful information.
+EventOldJournalAllRead.text,You have read enough to know what to do. This journal does not contain more information that is useful.
 EventOldJournalAllRead.button1,{qst:CONTINUE}
 EventOldJournalPage10.button2,{qst:CANCEL}
 EventOldJournalPage11.button2,{qst:CANCEL}
@@ -444,41 +443,41 @@ EventRootCellarSearchPapers.button1,{qst:CONTINUE}
 EventRootCellarPlaceRitualComponents.text,One shelf contains some chalk lines and random items. Place a Search Token as indicated.
 TokenRootCellarRitualComponents.text,On the shelf you notice some chalk lines and some random items.
 TokenRootCellarRitualComponents.button1,{qst:INSPECT}
-EventRootCellarSearchRitualComponents.text,These are no mere random items and the chalk lines on the shelf are also no coincidence. Someone has been practising a binding ritual here. These components are proof of foul play and you better keep them safe. You gain the Ritual Components Unique Item and you gain 1 Clue.
+EventRootCellarSearchRitualComponents.text,These are no mere random items and the chalk lines on the shelf are also no coincidence. Someone has been practicing a binding ritual here. These components are proof of foul play and you had better keep them safe. You gain the Ritual Components Unique Item and you gain 1 Clue.
 EventRootCellarSearchRitualComponents.button1,{qst:CONTINUE}
-EventRootCellarSearchPapers.text,You flip through some pages of the book. Some of the texts refer to binding a demon. On one page you find something useful. You gain the {c:QItemRootCellarSpell} Spell.
+EventRootCellarSearchPapers.text,You flip through some pages of the book. Some of the texts refer to binding a demon. On one page, you find something useful. You gain the {c:QItemRootCellarSpell} Spell.
 EventRootCellarPlaceRitualComponents.button1,{qst:CONTINUE}
 EventRootCellarPlaceSpell.text,A stack of books is placed on a shelf. Place a Search Token as indicated.
 EventRootCellarPlaceSpell.button1,{qst:CONTINUE}
 TokenPurpleWoman.button1,{qst:CONTINUE}
 PURPLEWOMANNOISE,"{action} <i>""What about this noise?""</i>"
-EventPurpleWomanDialogueAll.text,"The tall woman is busy cutting open a fish to remove its intestants. She puts down her knife and looks at you. While  she wipes her hands on her skirt she says <i>""Cod? Salmon? What is your liking?""</i>"
+EventPurpleWomanDialogueAll.text,"The tall woman is busy cutting open a fish to remove its intestants. She puts down her knife and looks at you. While she wipes her hands on her skirt, she says: <i>""Cod? Salmon? What is your liking?""</i>"
 EventPurpleWomanDialogueAll.button1,{qst:SEENSTRANGE}
 EventPurpleWomanDialogueAll.button2,{qst:PURPLEWOMANNOISE}
 EventPurpleWomanDialogueAll.button3,{qst:NEVERMIND}
-EventPurpleWomanAskSeen.text,"<i>""I see strange things every day. Yesterday one of the salmons had three eyes. The day before a squid with one tentacle twice the size of all others. This morning when I came here through the park  I swear I saw green light coming from the shed which is otherwise abandoned"".</i> You gain 1 Clue."
+EventPurpleWomanAskSeen.text,"<i>""I see strange things every day. Yesterday one of the salmons had three eyes. The day before a squid with one tentacle twice the size of all others. This morning when I came here through the park, I swear I saw green light coming from the shed which is otherwise abandoned"".</i> You gain 1 Clue."
 EventPurpleWomanAskSeen.button1,{qst:CONTINUE}
-EventPurpleWomanAskHeard.text,"<i>""The religious chanting coming from near the harbor masters office you mean? It started about three days ago and it drives me NUTS. Are you one of them too?""</i> The woman eyes you suspiciously. You gain 2 Clues."
+EventPurpleWomanAskHeard.text,"<i>""The religious chanting coming from near the harbormasters office you mean? It started about three days ago and it drives me NUTS. Are you one of them too?""</i> The woman eyes you suspiciously. You gain 2 Clues."
 EventPurpleWomanAskHeard.button1,{qst:CONTINUE}
 EventPurpleWomanDialogueSeen.button1,{qst:SEENSTRANGE}
 EventPurpleWomanDialogueSeen.text,"She puts down her knife again and wipes her hands on her skirt. <i>""I see you looking at that salmon. Shall I wrap that in paper for you?""</i>"
 EventPurpleWomanDialogueSeen.button2,{qst:NEVERMIND}
-EventPurpleWomanDialogueHeard.text,"She puts down her knife again and wipes her hands on her skirt. <i>""I see you looking at that salmon. Shall I wrap that in  paper for you?""</i>"
+EventPurpleWomanDialogueHeard.text,"She puts down her knife again and wipes her hands on her skirt. <i>""I see you looking at that salmon. Shall I wrap that in paper for you?""</i>"
 EventPurpleWomanDialogueHeard.button1,{qst:PURPLEWOMANNOISE}
 EventPurpleWomanDialogueNone.text,"<i>""If you are not buying then please move on. I have fish to sell""</i>"
 EventPurpleWomanDialogueNone.button1,{qst:NEVERMIND}
 EventGreyManAskTooMuch.button2,{qst:NEVERMIND}
-EventGreyManDialogueAll.text,The harbor master looks at you suspiciously. The sweat pearls on his forehead shimmer in the lamp light.
+EventGreyManDialogueAll.text,The harbormaster looks at you suspiciously. The sweat pearls on his forehead shimmer in the lamp light.
 TokenGreyMan.button1,{qst:CONTINUE}
-GREYMANIRRITATE,Your questions seem to irritate the harbor master. The fire in his eyes is growing.
+GREYMANIRRITATE,Your questions seem to irritate the harbormaster. The fire in his eyes is growing.
 GREYMANBELLTOWER,"{action} <i>""What can you tell me about that bell tower?""</i>"
 GREYMANSOUND,"{action} <i>""Do you know anything about this sound?""</i>"
 EventGreyManDialogueAll.button1,{qst:SEENSTRANGE}
-EventGreyManAskTower.text,"<i>""That tower is OFF LIMITS to you""</i> the harbor master says while clenching his teeth tightly. This question must have struck a nerve. You gain 1 Clue."
-EventGreyManAskTooMuch.text,The harbor master's manner turns from nervous to aggressive. In an icy voice he says: <i>What NOW? Can't you see I am busy with important work? I need to finish this before ... .</i> Without finishing that sentence he makes a dismissive gesture with his hand. Your questions must have struck a nerve.
+EventGreyManAskTower.text,"<i>""That tower is OFF LIMITS to you""</i>, the harbormaster says while clenching his teeth tightly. This question must have struck a nerve. You gain 1 Clue."
+EventGreyManAskTooMuch.text,The harbormaster's manner turns from nervous to aggressive. In an icy voice, he says: <i>What NOW? Can't you see I am busy with important work? I need to finish this before ... .</i> Without finishing that sentence he makes a dismissive gesture with his hand. Your questions must have struck a nerve.
 EventGreyManAskTooMuch.button1,"{action} <i>""Finish before what?""</i>"
 EventGreyManDialogueAll.button2,{qst:GREYMANSOUND}
-EventGreyManAskSound.text,"<i>""Sound? I ... I don't know what you are talking about. I just sit here in my office doing my business""</i> the harbor master quickly replies. A bit too quick. He is nervous about something. You gain 1 Clue."
+EventGreyManAskSound.text,"<i>""Sound? I ... I don't know what you are talking about. I just sit here in my office doing my business""</i> the harbormaster quickly replies. A bit too quick. He is nervous about something. You gain 1 Clue."
 EventGreyManAskSeen.button1,{qst:CONTINUE}
 EventGreyManAskSound.button1,{qst:CONTINUE}
 EventGreyManDialogueAll.button3,{qst:GREYMANBELLTOWER}
@@ -493,12 +492,12 @@ EventGreyManDialogueSeenTower.button1,{qst:SEENSTRANGE}
 EventGreyManDialogueSeenTower.button2,{qst:GREYMANBELLTOWER}
 EventGreyManDialogueSeenTower.text,{qst:GREYMANIRRITATE}
 EventGreyManDialogueSeenTower.button3,{qst:NEVERMIND}
-EventGreyManAskSeen.text,"<i>""Strange? No nothing. Nothing out of the ordinary""</i> the harbor master says nervously. His answer came too fast. You doubt he was telling the truth. You gain 1 Clue."
+EventGreyManAskSeen.text,"<i>""Strange? No nothing. Nothing out of the ordinary""</i> the harbormaster says nervously. His answer came too fast. You doubt he was telling the truth. You gain 1 Clue."
 EventGreyManDialogueSoundTower.button1,{qst:GREYMANSOUND}
 EventGreyManDialogueSoundTower.button2,{qst:GREYMANBELLTOWER}
 TokenDock1SearchDock.button1,{qst:INSPECT}
 TokenDock1SearchDock.text,You see some half-washed-away chalk lines at the end of the dock.
-EventDock1SearchDock.text,A closer inspection reveals that these chalk lines where used in a summoning ritual. The waves have already erased most of them. Whatever is coming it must be lured to this location. From the corner of your eye you notice something that doesn't belong there. It must have been one of the components used in the ritual. You gain the Lucky Rabbit's Foot Common item.
+EventDock1SearchDock.text,A closer inspection reveals that these chalk lines where used in a summoning ritual. The waves have already erased most of them. Whatever is coming it must be lured to this location. From the corner of your eye, you notice something that does not belong there. It must have been one of the components used in the ritual. You gain the Lucky Rabbit's Foot Common item.
 EventDock1SearchDock.button1,{qst:CONTINUE}
 EventDock1PlaceSearchToken.button1,{qst:CONTINUE}
 EventDock1PlaceSearchToken.text,At the end of the dock you see some chalk markings.
@@ -510,18 +509,18 @@ EventWarehouseSearchBoxes.text,You open one of the boxes and riffle through the 
 EventWarehouseSearchBoxes.button1,{qst:CONTINUE}
 TokenWareHouseSearchBoxes.text,Some boxes stand in the corner.
 TokenPierSearchBarrels.button1,{action} Pick up paper
-EventPierSearchBarrels.text,"Someone must have lost this piece of paper recently. It is torn and wet but parts can still be read. ""Best places to hide are in the tools........ , the abandoned shacks on  the....... and the ...... shop. Signed ......... aster"". You gain 1 Clue."
+EventPierSearchBarrels.text,"Someone must have lost this piece of paper recently. It is torn and wet but parts can still be read. ""Best places to hide are in the tools........ , the abandoned shacks on the....... and the ...... shop. Signed ......... aster"". You gain 1 Clue."
 EventPierSearchBarrels.button1,{qst:CONTINUE}
 EventPierPlaceSearchToken.text,Some barrels are pushed aside in the corner of the pier.
 EventPierPlaceSearchToken.button1,{qst:CONTINUE}
 EventRootCellarPlaceExploreTokenYard3.text,You see a rusty metal gate overgrown by weeds and blocked by garbage. Place an Explore Token as indicated.
 EventSearchRentalShack.button1,{qst:CONTINUE}
 EventGreyManDialogueSoundTower.button3,{qst:NEVERMIND}
-EventMythosMajor.text,Every step you make feels heavy and it is more difficult to concentrate. The sound is getting stronger and it feels like it is draining your energy. You hear the gutteral roar from the sea again, but this time much closer. The humming sound must be stopped soon.  Something big and evil is attrackted by this sound and moving closer.
+EventMythosMajor.text,Every step you make feels heavy and it is more difficult to concentrate. The sound is getting stronger and it feels like it is draining your energy. You hear the guttural roar from the sea again, but this time much closer. The humming sound must be stopped soon. Something big and evil is attracted by this sound and moving closer.
 EventMythosMajor.button1,{qst:CONTINUE}
-EventMythosMinor.text,The sound is resonating in the streets which increases your headache. You hear a distant gutteral roar comming from the sea. This does not sound good, you better hurry.
+EventMythosMinor.text,The sound is resonating in the streets, which increases your headache. You hear a distant guttural roar coming from the sea. This does not sound good, you had better hurry.
 EventMythosMinor.button1,{qst:CONTINUE}
-EventMythosDeadly.text,The humming sound becomes unbearable. You instinctively clasp your hands to your ears but that does not help. You feel the sound with your whole body ... and it hurts all over. Your mind is starting to play tricks on you. In the harbor you see the outline of something HUGE moving towards the docks. Time is running out, you better hurry and stop this humming sound or all will be lost.
+EventMythosDeadly.text,The humming sound becomes unbearable. You instinctively clasp your hands to your ears but that does not help. You feel the sound with your whole body ... and it hurts all over. Your mind is starting to play tricks on you. In the harbor, you see the outline of something HUGE moving towards the docks. Time is running out, you better hurry and stop this humming sound or all will be lost.
 EventMythosDeadly.button1,{qst:CONTINUE}
 EventMythosFlavor.text,The humming sound is clearly audible in the background tugging at your mind. No immediate effect.
 EventMythosFlavor.button1,{qst:CONTINUE}
@@ -547,7 +546,7 @@ EventQSpawnFinal.button1,{qst:CONTINUE}
 SpawnHuntingHorrorTownSquare.button1,{qst:CONTINUE}
 SpawnHuntingHorrorStreet.text,{qst:HUNTINGHORRORPLACE}
 SpawnHuntingHorrorTownSquare.text,{qst:HUNTINGHORRORPLACE}
-STARSPAWNPLACE,The sound is now louder than ever as if it is cheering in joy for the arrival of the huge demon. All will be lost when this demon reaches the {c:TileTownsquare}. Killing something this big will be impossible and makes no sense, more will come if you don't stop that awful noise. Place a Star Spawn as indicated.
+STARSPAWNPLACE,The sound is now louder than ever as if it is cheering in joy for the arrival of the huge demon. All will be lost when this demon reaches the {c:TileTownsquare}. Killing something this big will be impossible and makes no sense, more will come if you do not stop that awful noise. Place a Star Spawn as indicated.
 SpawnStarSpawnDock.text,{qst:STARSPAWNPLACE}
 SpawnStarSpawnDock.button1,{qst:CONTINUE}
 SpawnStarSpawnPier.text,{qst:STARSPAWNPLACE}
@@ -569,7 +568,7 @@ EventDeepSeaSpawnMoveOneSpace.text,The demon pushes onward, move it one space to
 EventDeepSeaStarSpawnAttackAgility.text,One of the monsters tentacles grips your ankle, picks you up and tosses you aside like a play-doll. You suffer 3 damage {agility} negates. If you suffer 1 or more damage you land 1 space away from the monster and you flip one damage face up.
 EventDeepSeaSpawnMoveOneSpace.button1,Monster has not reached the town square
 EventDeepSeaSpawnMoveOneSpace.button2,Monster reached the town square
-EventDeepSeaStarSpawnAttackStrength.text,The monsters tentacles smash down on you. You brace for impact, suffer 3  face down damage {strength} negates.  If you suffer 1 or more damage you become <i>Dazed</i>.
+EventDeepSeaStarSpawnAttackStrength.text,The monsters tentacles smash down on you. You brace for impact, suffer 3 facedown damage {strength} negates. If you suffer 1 or more damage you become <i>Dazed</i>.
 EventDeepSeaStarSpawnMoveAttackWill.button2,No investigator in range
 EventDeepSeaStarSpawnAttackAgility.button1,{qst:CONTINUE}
 EventDeepSeaStarSpawnMoveAttackWill.text,The monster moves 1 space towards the town square and attacks an investigator in range with the highest {will}.
@@ -579,15 +578,15 @@ EventDeepSeaStarSpawnAttackObservation.button1,{qst:CONTINUE}
 EventDeepSeaStarSpawnMoveAttackLore.button1,Monster attacks
 EventDeepSeaStarSpawnMoveAttackAgility.text,The demon moves 1 space closer to the town square and attacks an investigator in range with the lowest {agility}.
 EventDeepSeaStarSpawnAttackWill.button1,{qst:CONTINUE}
-EventDeepSeaStarSpawnAttackInfluence.text,You could try to dominate this demon. Bend his will to yours. With promise of power the demon tempts you to back down and hold your attacks. You suffer 3 face down Horror {influence} negates. If you suffer 1 or more horror you become <i>Mesmerized</i>.
+EventDeepSeaStarSpawnAttackInfluence.text,You could try to dominate this demon. Bend his will to yours. With a promise of power, the demon tempts you to back down and hold your attacks. You suffer 3 facedown Horror {influence} negates. If you suffer 1 or more horror, you become <i>Mesmerized</i>.
 EventDeepSeaStarSpawnAttackInfluence.button1,{qst:CONTINUE}
-EventDeepSeaStarSpawnAttackLore.text,The monsters tentackels are flailing around and you manage to dodge all of them but one. As it slightly brushes your head, your mind goes blank. Everything you once knew is lost ... all will be lost. You struggle to regain your memories. You suffer 3 face down Horror {lore} negates. If you suffer 1 or more horror you become <i>Mesmerized</i>.
+EventDeepSeaStarSpawnAttackLore.text,The monsters tentacles are flailing around and you manage to dodge all of them but one. As it slightly brushes your head, your mind goes blank. Everything you once knew is lost ... all will be lost. You struggle to regain your memories. You suffer 3 facedown Horror {lore} negates. If you suffer 1 or more horror, you become <i>Mesmerized</i>.
 EventDeepSeaStarSpawnAttackLore.button1,{qst:CONTINUE}
 EventDeepSeaStarSpawnMoveAttackStrength.button1,Monster attacks
-EventDeepSeaStarSpawnAttackWill.text,You see demons rising from the sea and invading the town. The monster has invaded your mind and tries to break your will. You suffer 3 face down Horror {will} negates. You then flip 1 Horror face up.
+EventDeepSeaStarSpawnAttackWill.text,You see demons rising from the sea and invading the town. The monster invades your mind and tries to break your will. You suffer 3 facedown Horror {will} negates. You then flip 1 Horror face up.
 EventDeepSeaStarSpawnMoveAttackAgility.button1,Monster attacks
 EventDeepSeaStarSpawnMoveAttackAgility.button2,No investigator in range
-EventDeepSeaStarSpawnAttackObservation.text,In rapid succession one after the other tentackle smashes down on you. You suffer 3 face down damage {observation} negates. If you do not suffer any damage you become <i>Focused</i>.
+EventDeepSeaStarSpawnAttackObservation.text,In rapid succession one after the other tentacle smashes down on you. You suffer 3 facedown damage {observation} negates. If you do not suffer any damage, you become <i>Focused</i>.
 EventDeepSeaStarSpawnMoveAttackLore.button2,No investigator in range
 EventDeepSeaStarSpawnMoveAttackLore.text,The demon moves 1 space towards the town square and then attacks an investigator in range with the lowest {lore}
 EventQClearSpawns.button1,{qst:CONTINUE}
@@ -598,12 +597,12 @@ EventQCheckScenarioEnd.button1,Button1
 EventQCheckInvestigatorDied.button1,Button1
 EventQCheckMonsterReachedTownSquare.button1,Button1
 EventQCheckGemsPlaced.button1,Button1
-UIEndTextAlmostSucces.uitext,The humming sound stops abruptly when you place the gems into their correct position. Outside you hear a tortured roar that slowly fades into the distance. You did it. For now....\n\n The bell is now resonating at a harmless frequency for humans and is chasing the demons away again. The person responsible for this mayhem, the harbor master, has also fled town.\n\nThe town wakes up from a deep and haunted sleep, surprised by the corpses found in the streets. Soon the police will arrive and start to ask questions. Questions that you are not prepared to answer, since the truth is too unbelievable. It is probably better that you disappear.\n\nThis delicate balance of peace remains only as long as the bell is tuned correctly. With the harbor master still alive you cannot abandon this bell tower. He will be watching, waiting for the next opportunity....
+UIEndTextAlmostSucces.uitext,The humming sound stops abruptly when you place the gems into their correct position. Outside you hear a tortured roar that slowly fades into the distance. You did it. For now....\n\n The bell is now resonating at a harmless frequency for humans and is chasing the demons away again. The person responsible for this mayhem, the harbormaster, has also fled town.\n\nThe town wakes up from a deep and haunted sleep, surprised by the corpses found in the streets. Soon the police will arrive and start to ask questions. Questions that you are not prepared to answer, since the truth is too unbelievable. It is probably better that you disappear.\n\nThis delicate balance of peace remains only as long as the bell is tuned correctly. With the harbormaster still alive you cannot abandon this bell tower. He will be watching, waiting for the next opportunity....
 EventEndUIHarbormasterLives.button1,{qst:CONTINUE}
 UIEndContinueText.uitext,{qst:CONTINUE}
 UIEndTextDemontownSquare.uitext,A horrible roar sounds from the town square. While this sound chills you to the bone, it attracts even more evil spawn from the dark waters. Their march is unstoppable now and soon they will overtake the docks and eventually the whole town.\n\nThere is nothing left to do but save your own skin. You run for your life, leaving the docks and its inhabitants behind to certain death...\n\nLooking back you see some of the demons following your trail... will you ever be safe... anywhere?
 UIEndContinueBG.button1,Button1
-UIEndTextSuccess.uitext,The humming sound stops abruptly when you place the gems into their correct position. Outside you hear a tortured roar that slowly fades into the distance. You did it.\n\n The bell is now resonating at a harmless frequency for humans and is chasing the demons away. And you did it just in time too. This could not have continued any longer.\n\nThe town wakes up from a deep and haunted sleep, surprised by the corpses found in the streets. Soon the police will arrive and start to ask questions. Questions that you are not prepared to answer, since the truth is too unbelievable. It is probably better that you leave.\n\nThis delicate balance of peace remains, only for as long as the bell is tuned correctly. At the change of seasons you will return to adjust the bells tune.
+UIEndTextSuccess.uitext,The humming sound stops abruptly when you place the gems into their correct position. Outside you hear a tortured roar that slowly fades into the distance. You did it.\n\n The bell is now resonating at a harmless frequency for humans and is chasing the demons away. And you did it just in time too. This could not have continued any longer.\n\nThe town wakes up from a deep and haunted sleep, surprised by the corpses found in the streets. Soon the police will arrive and start to ask questions. Questions that you are not prepared to answer, since the truth is too unbelievable. It is probably better that you leave.\n\nThis delicate balance of peace remains, only for as long as the bell is tuned correctly. At the change of seasons, you will return to adjust the bells tune.
 UIEndContinueText.button1,Button1
 UIEndTextInvestigatorDies.uitext,When you a see fellow investigator die in agony you have no time to mourn. A victorious roar sounds from the town square. While this sound chills you to the bone, it attracts even more evil spawn from the dark waters. Their march is unstoppable now and soon they will overtake the docks and eventually the whole town.\n\nThere is nothing left to do but save your own skin. You run for your life, leaving the docks and its inhabitants behind to certain death...\n\nLooking back you see some of the demons following your trail... will you ever be safe... anywhere?
 EventStoreSearchPlaceTokenGunStillThere.text,The gun in the display is left undisturbed.
@@ -615,7 +614,7 @@ EventDeepSeaStarSpawnMoveAttackStrength.button3,Monster reached the town square
 TokenTest.button4,Spawn Big Bad
 EventEventTestSpawnFinal.button1,Button1
 EventQSpawnHuntingHorror.button1,Button1
-EventQItemInspectBrassKey.text,The brass key has a small piece of bright blue string connected to it. It looks as if the label hanging on this string was torn from it.
+EventQItemInspectBrassKey.text,The brass key has a small piece of bright blue string connected to it. It looks as if a label hanging on this string has been torn from it.
 EventQItemInspectBrassKey.button1,{qst:CONTINUE}
 TokenStreet2SearchToken.text,You notice a little piece of paper label with a piece of blue string attached to it.
 TokenStreet2SearchToken.button1,{qst:INSPECT}
@@ -625,7 +624,7 @@ EventStreet2PlaceSearchToken.text,A small piece of paper lies in the dirt. Norma
 EventStreet2PlaceSearchToken.button1,{qst:CONTINUE}
 TokenWareHouseSearchShelf.text,On the shelf you notice a half burned book.
 TokenWareHouseSearchShelf.button1,{action} Read book
-EventWarehouseSearchShelf.text,Most of the pages in this book are burned and unreadable. But from the parts that you can read, you conclude that this is the logbook of the customs officer. It contains a list of boats that enter and leave the harbor including a time stamp and a short description of their cargo.
+EventWarehouseSearchShelf.text,Most of the pages in this book are burned and unreadable. From the parts that you can read, you conclude that this is the logbook of the customs officer. It contains a list of boats that enter and leave the harbor including a time stamp and a short description of their cargo.
 EventWarehouseSearchShelf.button1,{qst:CONTINUE}
 EventWarehouseSearchShelf2.button1,{qst:CONTINUE}
 EventWarehousePlaceSearchTokenShelf.text,On the shelf you notice a half burned book. Place a Search Token as indicated.
@@ -633,7 +632,7 @@ EventWarehouseSearchShelf2.text,"Two entries catch your eye since they are writt
 EventWarehousePlaceSearchTokenShelf.button1,{qst:CONTINUE}
 EventWarehousePlaceSearchTokenBoxes.button1,{qst:CONTINUE}
 EventWarehousePlaceSearchTokenBoxes.text,In the corner you see some half opened boxes. Place a Search Token as indicated.
-EventBellTowerDoorNoKey.text,The door is locked with a silver lock and can only be opened with a special key. Maybe the harbor master knows more.
+EventBellTowerDoorNoKey.text,The door has a silver lock and requires a special key to open. Maybe the harbormaster knows more.
 EventSpawnTestLittleBoyMove.button1,{qst:CONTINUE}
 EventSpawnMoveLittleBoy.text,"<i>""MONSTER"" </i> the little boy screams and runs to safety. "
 EventSpawnMoveLittleBoy.button1,{qst:CONTINUE}
@@ -641,8 +640,8 @@ TokenOrangeBoyTownSquare.button1,{qst:CONTINUE}
 EventRentalShackDiscoverSecretDoor.text,You push the boxes aside and reveal a secret door. Place a Secret Door token as indicated.
 EventRentalShackDiscoverSecretDoor.button1,{qst:CONTINUE}
 EventRootCellarSearchBush.button1,{qst:CONTINUE}
-EventRootCellarSearchBush.text,Outside the cellar you hear hurried footsteps and the sound of a breaking twig. Place a Search Token as indicated.
-EventRootCellarPlaceSightStreet2.text,Outside you hear muffled street sounds. Place a Sight token as indicated.
+EventRootCellarSearchBush.text,Outside the cellar, you hear hurried footsteps and the sound of a breaking twig. Place a Search Token as indicated.
+EventRootCellarPlaceSightStreet2.text,Outside, you hear muffled street sounds. Place a Sight token as indicated.
 EventRootCellarPlaceSightStreet2.button1,{qst:CONTINUE}
 EventRootCellarPlaceSightYard4.text,You hear the creaking sound of branches rubbing against the root cellar when the wind blows. Place a Sight token as indicated.
 EventRootCellarPlaceSightYard4.button1,{qst:CONTINUE}
@@ -664,28 +663,28 @@ EventGreenManDialogueSeen.button1,{qst:SEENSTRANGE}
 EventGreenManDialogueSeen.button2,{qst:NEVERMIND}
 EventGreenManWalkAway.text,"<i>""Well it's been nice talking to you but it is getting late. I'd better go home before 'accidents' start to happen to me like what happened to the old customs officer. Good evening to you."" </i> The dockworker throws his cigarette on the ground and steps on it with his boot as he walks away. Remove the Green Person token. You gain 1 Clue."
 EventSearchRentalShack.text,You are about to look in the boxes and notice that they are blocking the view of something more interesting. Remove the Search Token.
-EventBellTowerSearchToken.text,A trap door opens up in the bell tower. Place a Trap Door Token as indicated. Replace the the Search token with a Trap Door token as indicated.
-EventRentalShackPlaceSightToken.text,Beyond the rental dock you see even more docks. Place a Sight Token as indicated.
+EventBellTowerSearchToken.text,A trap door opens up in the bell tower. Place a Trap Door Token as indicated. Replace the Search token with a Trap Door token as indicated.
+EventRentalShackPlaceSightToken.text,Beyond the rental dock, you see even more docks. Place a Sight Token as indicated.
 EventRentalShackPlaceSightToken.button1,{qst:CONTINUE}
 EventRentalShackPlaceBarricade.button1,{qst:CONTINUE}
-EventQItemBrassKeyInspectLabel.text,From the label that you found with the same blue string you know that this key will fit on the door of the rentalshack on the rental dock and that the key once belonged to the customs officer.
+EventQItemBrassKeyInspectLabel.text,From the label that you found with the same blue string you know that this key will fit on the door of the rental shack on the rental dock and that the key once belonged to the customs officer.
 EventQItemBrassKeyInspectLabel.button1,{qst:CONTINUE}
 EventQSpawnRandom.text,The humming is shortly interrupted by the sound of bell that is out of tune. That bell sound clearly came from the bell tower near the rental docks. Then the humming sound continues at a slightly increased volume and with that also your headache increases.
 EventQSpawnFinal.text,Once again the bell rings. This time a bit louder as if it is welcoming a great horror.
 EventOfficeSearchPapersSuccess.text,You gather the papers and discover that they all belong to one journal. It looks like someone has tried to dispose of some evidence. Maybe you can put it back together. You gain the Old Journal Unique Item. An investigator carrying the old journal papers may interact with it in the inventory.
 EventOfficeSearchPapersFail.button1,{qst:CONTINUE}
-EventOfficeSearchPapersHarbormasterDead.text,You check the room and see there is no need to be subtle since the harbor master is dead.
+EventOfficeSearchPapersHarbormasterDead.text,You check the room and see there is no need to be subtle since the harbormaster is dead.
 EventOfficeSearchPapersHarbormasterDead.button1,{action} Pick Up
-EventQTestClueHearObservation.text,The answer to this question troubles you. How can you NOT hear this maddening sound? It is getting even louder, now you focus on it. Horrific images start to form in your mind. Suffer 2 face down Horror ({observation} negates; you may not use Clue tokens to convert {clue} to {success} for <i><b>this test</b></i>). Throw away as many clues as Horror suffered. If you negate all Horrors, you realize that this person's vague expression is a sign of some mind influence and you dismiss the images. If suffer one or more Horror, you start to question yourself and the images turn into daytime nightmares and turn one Horror face up.
+EventQTestClueHearObservation.text,The answer to this question troubles you. How can you NOT hear this maddening sound? It is getting even louder, now you focus on it. Horrific images start to form in your mind. Suffer 2 facedown Horror ({observation} negates; you may not use Clue tokens to convert {clue} to {success} for <i><b>this test</b></i>). Throw away as many clues as Horror suffered. If you negate all Horrors, you realize that this person's vague expression is a sign of some mind influence and you dismiss the images. If suffer one or more Horror, you start to question yourself and the images turn into daytime nightmares and turn one Horror face up.
 EventQTestClueHearObservation.button1,{qst:CONTINUE}
 EventQTestClueHearInfluence.button1,{qst:CONTINUE}
-EventQTestClueHearAgility.text,The answer to this question troubles you. How can you NOT hear this maddening sound? It is getting even louder, now you focus on it. Horrific images start to form in your mind. Suffer 2 face down Horror ({agility} negates; you may not use Clue tokens to convert {clue} to {success} for <i><b>this test</b></i>). Throw away as many clues as Horror suffered. If you negate all Horrors, you cover your ears quickly and realize that the images are merely a trick of the mind. If suffer one or more Horror, you start to question yourself and the images turn into daytime nightmares and turn one Horror face up.
-EventQTestClueHearInfluence.text,The answer to this question troubles you. How can you NOT hear this maddening sound? It is getting even louder, now you focus on it. Horrific images start to form in your mind. Suffer 2 face down Horror ({influence} negates; you may not use Clue tokens to convert {clue} to {success} for <i><b>this test</b></i>). Throw away as many clues as Horror suffered. If you negate all Horrors, you realize that the answer sounded controlled as if this person is under some mind influence and you dismiss the images. If suffer one or more Horror, you start to question yourself and the images turn into daytime nightmares. Turn one Horror face up
+EventQTestClueHearAgility.text,The answer to this question troubles you. How can you NOT hear this maddening sound? It is getting even louder, now you focus on it. Horrific images start to form in your mind. Suffer 2 facedown Horror ({agility} negates; you may not use Clue tokens to convert {clue} to {success} for <i><b>this test</b></i>). Throw away as many clues as Horror suffered. If you negate all Horrors, you cover your ears quickly and realize that the images are merely a trick of the mind. If suffer one or more Horror, you start to question yourself and the images turn into daytime nightmares and turn one Horror face up.
+EventQTestClueHearInfluence.text,The answer to this question troubles you. How can you NOT hear this maddening sound? It is getting even louder, now you focus on it. Horrific images start to form in your mind. Suffer 2 facedown Horror ({influence} negates; you may not use Clue tokens to convert {clue} to {success} for <i><b>this test</b></i>). Throw away as many clues as Horror suffered. If you negate all Horrors, you realize that the answer sounded controlled as if this person is under some mind influence and you dismiss the images. If suffer one or more Horror, you start to question yourself and the images turn into daytime nightmares. Turn one Horror face up
 EventQTestClueHearAgility.button1,{qst:CONTINUE}
 EventQTestClueHear.button1,Button1
-EventTownSquareRemoveInvestigators.text,You recognize the harbor district from an article in last week's newspaper. It was an interview with the customs officer who recently lost his hearing due to an explosion while working in the warehouse. He had to quit his job and became gardener in the park. He also mentioned the new harbormaster taking over his bell tower duties. \nThe article did not go into details about what <i>'Bell tower duties'</i>  meant. Best find that customs officer to ask him about this.
+EventTownSquareRemoveInvestigators.text,You recognize the harbor district from an article in last week's newspaper. It was an interview with the customs officer, who recently lost his hearing due to an explosion while working in the warehouse. He had to quit his job and became gardener in the park. He also mentioned the new harbormaster taking over his bell tower duties. \nThe article did not go into details about what <i>'Bell tower duties'</i> meant. Best find that retired customs officer to ask him about this.
 EventTownSquareRemoveInvestigators.button1,{qst:CONTINUE}
-EventStoreFrontStealGun.button1,{action} Grab gun
+EventStoreFrontStealGun.button1,{action} Steal
 EventStoreFrontStealGun.button2,{qst:CANCEL}
 EventStoreFrontNoStealGun.text,While the shop keeper has left the store, you now have the chance to take the gun at your leisure..
 EventStoreFrontNoStealGun.button1,{action} Take gun
@@ -693,14 +692,14 @@ EventStoreFrontNoStealGun.button2,{qst:CANCEL}
 EventStoreFrontSeeGunDoorLocked.text,Through the window you can see that the shopkeeper left the gun in the display. Perhaps you can pick the lock of the front door and go inside to 'borrow' it.
 EventStoreFrontSeeGunDoorLocked.button1,{qst:CONTINUE}
 EventExploreOfficeRootCellarUnsafe.button2,{qst:CANCEL}
-EventExploreOfficeRootCellarUnsafe.text,"This door is marked as ""Private"". You better leave this door undisturbed while the harbor master is around."
+EventExploreOfficeRootCellarUnsafe.text,"This door is marked as ""Private"". You better leave this door undisturbed while the harbormaster is around."
 EventExploreOfficeRootcellarSafe.button2,{qst:CANCEL}
 EventPurpleWomanDialogueHeard.button2,{qst:NEVERMIND}
 TokenWhiteWoman.button3,{qst:NEVERMIND}
 EventOrangeBoyDialogueSeen.button2,{qst:NEVERMIND}
 EventBellPlaceGems.button1,{action} Place Gems
 EventBellPlaceGems.button2,{qst:CANCEL}
-TokenInteractBell.text,You found the source of the annoying sound. The resonating copper bell must be responsible for the recent events in the docks. The 4 sockets need to be properly filled with the right items. That would stop the bell from resonating at this frequency and return back to its original protective tune. \nMake sure to put in the exact right number (not more, not less) and that you have actually found sufficient number of items.
+TokenInteractBell.text,You found the source of the annoying sound. The resonating copper bell must be responsible for the recent events in the docks. The 4 sockets need to be properly filled with the right items. That would stop the bell from resonating at this frequency and return back to its original protective tune. \nMake sure to put in the exact right number (not more, not less), and that you have actually found sufficient number of items.
 EventRentalShackRevealSecretDoor.text,The secret passage leads to the {c:TileBellTower}.\nRemove the Search Token and Place a Trap Door Token as indicated.
 EventRentalShackRevealSecretDoor.button1,Continue
 EventRentalShackPlaceNoTile.text,The trapdoor leads towards to a small shack on the rental dock. Place the {c:TileRentalDock} tile as indicated. Remove all connecting tokens.
@@ -714,10 +713,12 @@ EventOldJournalInspect.button1,{qst:CONTINUE}
 EventOfficeSearchPapersHarborMasterLives.button1,{action} Pick Up
 EventOfficeSearchPapersHarbormasterDead.button2,{qst:CANCEL}
 EventOfficeSearchPapersHarborMasterLives.button2,{qst:CANCEL}
-EventQRemoveOfficeRootCellarDoor.text,Now the harbor master is dead it is safe to open this door. Remove the Explore Token
+EventQRemoveOfficeRootCellarDoor.text,Now the harbormaster is dead it is safe to open this door. Remove the Explore Token
 EventQRemoveOfficeRootCellarDoor.button1,{qst:CONTINUE}
 EventQAdjustDifficulty2.button1,Button1
 EventQAdjustDifficulty.button1,Button1
 EventQAdjustDifficulty4OrMore.button1,Button1
 EventQStart.button1,{qst:CONTINUE}
 EventQStart.text,Each investigator begins with 2 Clues.
+EventStoreFronStealingGun.button1,Take Gun
+EventStoreFronStealingGun.text,Test your {agility} to take the gun without the shopkeeper noticing it.
