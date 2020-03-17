@@ -31,3 +31,5 @@ The scenario can be played with the game Mansions Of Madness 2nd edition, no exp
 14-11-2019 v1.10 Added voiceover files for introduction and endings created by Stephen Weese #20
 
 17-11-2019 v1.11 Restored Polish translation
+
+17-03-2019 v1.12 Added Spanish translation by Vidimus
