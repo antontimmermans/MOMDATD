@@ -24,7 +24,7 @@ The scenario can be played with the game Mansions Of Madness 2nd edition, no exp
 
 13-03-2019 v1.7 Implemented #9 and #10; many txt improvements; Created with Valkyrie 2.2.04
 
-21-03-2019 V1.8 Implemented #11, #12, #13, #14 and #15. UI Epiloge and Prologue changed to fit all screens, created with Valkyrie 2.2.04
+21-03-2019 V1.8 Implemented #11, #12, #13, #14 and #15. UI Epilogue and Prologue changed to fit all screens, created with Valkyrie 2.2.04
 
 23-04-2019 V1.9 Implemented textual improvements and added Polish Translation as listed in #18
 
@@ -32,4 +32,8 @@ The scenario can be played with the game Mansions Of Madness 2nd edition, no exp
 
 17-11-2019 v1.11 Restored Polish translation
 
-17-03-2019 v1.12 Added Spanish translation by Vidimus
+17-03-2020 v1.12 Added Spanish translation by Vidimus
+
+21-05-2020 v1.13 Added Portuguese translation #21 by Revokee
+
+24-05-2020 v1.14 Added French translation #23 by mpnsot
