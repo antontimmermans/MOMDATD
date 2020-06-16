@@ -39,3 +39,5 @@ The scenario can be played with the game Mansions Of Madness 2nd edition, no exp
 24-05-2020 v1.14 Added French translation #23 by mponsot
 
 24-05-2020 v1.15 Updated Portuguese Translation and added Portuguese audio files
+
+16-06-2020 v1.15a Small text corrections in Portuguese translation.
