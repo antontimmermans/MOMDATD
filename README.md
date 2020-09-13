@@ -43,3 +43,5 @@ The scenario can be played with the game Mansions Of Madness 2nd edition, no exp
 16-06-2020 v1.15a Small text corrections in Portuguese translation.
 
 20-08-2020 v1.15b Spanish translation updates by Vidimus.
+
+13-09-2020 v2.20 Changed bell puzzle into graphic puzzle: #4 including Spanish translation by Vidimus of new puzzle
