@@ -59,3 +59,5 @@ The scenario can be played with the game Mansions Of Madness 2nd edition, no exp
 13-12-2020 V2.0g Added Spanish sound files from Noviembre Nocturno & Jon Iñaki Ibiriku soundtrack
 
 22-01-2020 V2.0h Fixed Spanish sound file fullwin
+
+15-05-2021 V2.0i fixed issue #27
