@@ -65,3 +65,5 @@ The scenario can be played with the game Mansions Of Madness 2nd edition, no exp
 26-01-2022 V2.1 Storefront Gun set to common item to avoid stealing Becky
 
 10-05-2022 V2.1a cleaned scenario package; removed additional scenario file
+
+03-11-2022 v2.1b Small updates to polish translation by mayjak #29
