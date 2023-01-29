@@ -67,3 +67,5 @@ The scenario can be played with the game Mansions Of Madness 2nd edition, no exp
 10-05-2022 V2.1a cleaned scenario package; removed additional scenario file
 
 03-11-2022 v2.1b Small updates to polish translation by mayjak #29
+
+29-01-2023 v2.1c Added German translation by frankenraecher
