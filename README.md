@@ -71,3 +71,5 @@ The scenario can be played with the game Mansions Of Madness 2nd edition, no exp
 29-01-2023 v2.1c Added German translation by frankenraecher
 
 21-07-2023 v2.1d Added Chinese translation by sammylin
+
+15-12-2023 v2.1e added MinCam and MaxCam at start up to prevent board moving out of view.
